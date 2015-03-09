@@ -1,1 +1,0 @@
-SPARKR_USE_SPARK_SUBMIT=1 YARN_CONF_DIR=/etc/hadoop/conf ./sparkR something.R yarn-client /user/dotcz12/enwiki-latest-all-titles-in-ns0
