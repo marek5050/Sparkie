@@ -10,14 +10,10 @@ rhinit()
 #rhoptions(runner=paste(getwd(),'/rhipe-runner.sh',sep=''))
 rhoptions(runner = 'sh /home/dotcz12/R/lib64/R/library/Rhipe/bin/RhipeMapReduce.sh')
 
-#input.file.local <- 'book2.txt'
-input.file.hdfs <- paste('/user/',Sys.getenv('USER'),'/data/book.txt',sep='')
-#input.file.hdfs <- paste("/user/",Sys.getenv("USER"),"/data/enwiki-latest-stub-meta-current1.xml",sep="")
-
-#input.file.hdfs <- paste("/user/",Sys.getenv("USER"),"/data/enwiki-latest-pages-articles.xml",sep="")
-#input.file.hdfs <- "/tmp/data/enwiki-20120104-pages-articles.xml"
-output.dir.hdfs <- paste('/user/',Sys.getenv('USER'),'/out/rhipe_small_book',sep='')
-output.file.local <- 'output_book.txt'
+input.file.local <- 'sample.txt'
+input.file.hdfs <- paste('/user/',Sys.getenv('USER'),'/sample.txt',sep='')
+output.dir.hdfs <- paste('/user/',Sys.getenv('USER'),'/sample-txt-out',sep='')
+output.file.local <- 'output_sample.txt'
 
 mapper <- expression( {
     # 'map.values' is a list containing each line of the input file
@@ -45,7 +41,7 @@ reducer <- expression(
 )
 
 # equivalent to hadoop dfs -copyFromLocal
-#rhput(input.file.local, input.file.hdfs)
+rhput(input.file.local, input.file.hdfs)
 
 # rhwatch launches the Hadoop job
 rhipe.results <- rhwatch(
