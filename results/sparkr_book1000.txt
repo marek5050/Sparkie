@@ -1,9 +1,0 @@
---------SparkR 3--------
-Launching java with spark-submit command  spark-submit   --class edu.berkeley.cs.amplab.sparkr.SparkRBackend  /home/dotcz12/TACCPROJECT/SparkR/SparkR-pkg-master/lib/SparkR/sparkr-assembly-0.1.jar /tmp/Rtmp9oSqEZ/backend_port7ed2b1c189b 
---args is deprecated. Use --arg instead.
---------SparkR 3--------
-Launching java with spark-submit command  spark-submit   --class edu.berkeley.cs.amplab.sparkr.SparkRBackend  /home/dotcz12/TACCPROJECT/SparkR/SparkR-pkg-master/lib/SparkR/sparkr-assembly-0.1.jar /tmp/RtmpBxeKHv/backend_portbb7744cd5bc 
---args is deprecated. Use --arg instead.
---------SparkR 3--------
-Launching java with spark-submit command  spark-submit   --class edu.berkeley.cs.amplab.sparkr.SparkRBackend  /home/dotcz12/TACCPROJECT/SparkR/SparkR-pkg-master/lib/SparkR/sparkr-assembly-0.1.jar /tmp/RtmpE3tAyM/backend_port102c298924ac 
---args is deprecated. Use --arg instead.
