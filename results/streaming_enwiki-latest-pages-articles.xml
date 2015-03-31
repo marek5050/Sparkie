@@ -1,0 +1,9 @@
+--------Streaming 8--------
+-----------PYTHON--------
+1539 150
+py enwiki-latest-pages-articles.xml mapper.py reducer.py
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob4696477727281379566.jar tmpDir=null
+-----------R--------
+1539 150
+r enwiki-latest-pages-articles.xml mapper.R reducer.R
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob8534921074328463144.jar tmpDir=null

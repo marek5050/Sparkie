@@ -1,0 +1,14 @@
+--------SparkR 3--------
+Deleted out/sparkR-3-enwiki-latest-stub-meta-current1.xml
+Launching java with spark-submit command  spark-submit   --class edu.berkeley.cs.amplab.sparkr.SparkRBackend  /home/dotcz12/TACCPROJECT/SparkR/SparkR-pkg-master/lib/SparkR/sparkr-assembly-0.1.jar /tmp/Rtmpk4ClfJ/backend_port86b415fc8204 
+--args is deprecated. Use --arg instead.
+--------SparkR 3--------
+Launching java with spark-submit command  spark-submit   --class edu.berkeley.cs.amplab.sparkr.SparkRBackend  /home/dotcz12/TACCPROJECT/SparkR/SparkR-pkg-master/lib/SparkR/sparkr-assembly-0.1.jar /tmp/Rtmpz41Brt/backend_port8b603f1914ec 
+--args is deprecated. Use --arg instead.
+--------SparkR 3--------
+Launching java with spark-submit command  spark-submit   --class edu.berkeley.cs.amplab.sparkr.SparkRBackend  /home/dotcz12/TACCPROJECT/SparkR/SparkR-pkg-master/lib/SparkR/sparkr-assembly-0.1.jar /tmp/Rtmp5ryudc/backend_port92b25c1dded8 
+--args is deprecated. Use --arg instead.
+--------SparkR 3--------
+Deleted out/sparkR-3-enwiki-latest-stub-meta-current1.xml
+Launching java with spark-submit command  spark-submit   --class edu.berkeley.cs.amplab.sparkr.SparkRBackend  /home/dotcz12/TACCPROJECT/SparkR/SparkR-pkg-master/lib/SparkR/sparkr-assembly-0.1.jar /tmp/RtmpE2vjV9/backend_porta1863aab6f7f 
+--args is deprecated. Use --arg instead.

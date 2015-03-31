@@ -1,0 +1,1042 @@
+-------RHIPE 8--------
+2015-03-25 20:55:50,436 WARN  [main][NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Wed Mar 25 20:55:55 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1326  State: PREP Duration: 116.885
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1326/
+       pct numtasks pending running complete killed failed_attempts
+map      0        0       0       0        0      0               0
+reduce   0        0       0       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:56:01 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1326  State: RUNNING Duration: 122.66
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1326/
+       pct numtasks pending running complete killed failed_attempts
+map      0      385     385       0        0      0               0
+reduce   0       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+Error: java.io.IOException: hdfs://name.rustler.tacc.utexas.edu:8020/user/dotcz12/data/enwiki-latest-pages-articles.xml not a SequenceFile
+	at org.apache.hadoop.io.SequenceFile$Reader.init(SequenceFile.java:1850)
+	at org.apache.hadoop.io.SequenceFile$Reader.initialize(SequenceFile.java:1810)
+	at org.apache.hadoop.io.SequenceFile$Reader.<init>(SequenceFile.java:1759)
+	at org.apache.hadoop.io.SequenceFile$Reader.<init>(SequenceFile.java:1773)
+	at org.apache.hadoop.mapreduce.lib.input.SequenceFileRecordReader.initialize(SequenceFileRecordReader.java:54)
+	at org.apache.hadoop.mapred.MapTask$NewTrackingRecordReader.initialize(MapTask.java:525)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:763)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:340)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:167)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1554)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:162)
+[Wed Mar 25 20:56:07 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1326  State: RUNNING Duration: 128.565
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1326/
+       pct numtasks pending running complete killed failed_attempts
+map      0      385      26     359        0      0             210
+reduce   0       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+Error: java.io.IOException: hdfs://name.rustler.tacc.utexas.edu:8020/user/dotcz12/data/enwiki-latest-pages-articles.xml not a SequenceFile
+	at org.apache.hadoop.io.SequenceFile$Reader.init(SequenceFile.java:1850)
+	at org.apache.hadoop.io.SequenceFile$Reader.initialize(SequenceFile.java:1810)
+	at org.apache.hadoop.io.SequenceFile$Reader.<init>(SequenceFile.java:1759)
+	at org.apache.hadoop.io.SequenceFile$Reader.<init>(SequenceFile.java:1773)
+	at org.apache.hadoop.mapreduce.lib.input.SequenceFileRecordReader.initialize(SequenceFileRecordReader.java:54)
+	at org.apache.hadoop.mapred.MapTask$NewTrackingRecordReader.initialize(MapTask.java:525)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:763)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:340)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:167)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1554)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:162)
+[Wed Mar 25 20:56:13 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1326  State: RUNNING Duration: 134.468
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1326/
+       pct numtasks pending running complete killed failed_attempts
+map      0      385      26     359        0      0             706
+reduce   0       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+Error: java.io.IOException: hdfs://name.rustler.tacc.utexas.edu:8020/user/dotcz12/data/enwiki-latest-pages-articles.xml not a SequenceFile
+	at org.apache.hadoop.io.SequenceFile$Reader.init(SequenceFile.java:1850)
+	at org.apache.hadoop.io.SequenceFile$Reader.initialize(SequenceFile.java:1810)
+	at org.apache.hadoop.io.SequenceFile$Reader.<init>(SequenceFile.java:1759)
+	at org.apache.hadoop.io.SequenceFile$Reader.<init>(SequenceFile.java:1773)
+	at org.apache.hadoop.mapreduce.lib.input.SequenceFileRecordReader.initialize(SequenceFileRecordReader.java:54)
+	at org.apache.hadoop.mapred.MapTask$NewTrackingRecordReader.initialize(MapTask.java:525)
+	at org.apache.hadoop.mapred.MapTask.runNewMapper(MapTask.java:763)
+	at org.apache.hadoop.mapred.MapTask.run(MapTask.java:340)
+	at org.apache.hadoop.mapred.YarnChild$2.run(YarnChild.java:167)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1554)
+	at org.apache.hadoop.mapred.YarnChild.main(YarnChild.java:162)
+-------RHIPE 8--------
+2015-03-25 20:57:36,279 WARN  [main][NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Wed Mar 25 20:57:40 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: PREP Duration: 116.894
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+       pct numtasks pending running complete killed failed_attempts
+map      0        0       0       0        0      0               0
+reduce   0        0       0       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:57:46 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 122.669
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+       pct numtasks pending running complete killed failed_attempts
+map      0      385     385       0        0      0               0
+reduce   0       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:57:52 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 128.507
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+       pct numtasks pending running complete killed failed_attempts
+map      0      385     128     257        0      0               0
+reduce   0       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:57:58 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 134.086
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+              pct numtasks pending running complete killed failed_attempts
+map    0.00765193      385       0     385        0      0               0
+reduce 0.00000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:04 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 139.88
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+              pct numtasks pending running complete killed failed_attempts
+map    0.02713824      385       0     385        0      0               0
+reduce 0.00000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:10 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 146.152
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+              pct numtasks pending running complete killed failed_attempts
+map    0.09532147      385       0     385        0      0               0
+reduce 0.00000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:15 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 151.708
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.1580124      385       0     385        0      0               0
+reduce 0.0000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:21 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 157.165
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.2200976      385       0     385        0      0               0
+reduce 0.0000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:26 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 162.634
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.2781293      385       0     385        0      0               0
+reduce 0.0000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:31 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 168.052
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    0.344247      385       0     385        0      0               0
+reduce 0.000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:37 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 173.471
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+           pct numtasks pending running complete killed failed_attempts
+map    0.40574      385       0     385        0      0               0
+reduce 0.00000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:42 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 178.878
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.4664102      385       0     385        0      0               0
+reduce 0.0000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:48 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 184.381
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    0.530586      385       0     385        0      0               0
+reduce 0.000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:53 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 189.736
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.5873755      385       0     385        0      0               0
+reduce 0.0000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:58:58 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 195.058
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6325921      385       0     385        0      0               0
+reduce 0.0000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:04 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 200.374
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6560407      385       0     382        3      0               0
+reduce 0.0000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:09 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 205.73
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    0.670186      385       0     376        9      0               0
+reduce 0.000000       50      50       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:14 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 211.063
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.7006889      385       0     344       41      0               0
+reduce 0.0000000       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:20 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 216.435
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.8003846      385       0     230      155      0               0
+reduce 0.0000000       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:25 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 221.8
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.9013835      385       0     113      272      0               0
+reduce 0.1203464       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:31 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 227.182
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.9576182      385       0      49      336      0               0
+reduce 0.1203464       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:36 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 232.555
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.9878908      385       0      14      371      0               0
+reduce 0.1228572       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:41 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 237.933
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    0.9982701      385       0       2      383      0               0
+reduce 0.2288139       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:47 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 243.318
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.2353074       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:52 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 248.691
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.2403636       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 20:59:58 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 254.081
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.2805143       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:03 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 259.545
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.3900414       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:08 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 265.018
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.472924       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:14 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 270.462
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.524975       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:19 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 275.832
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.5760835       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:25 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 281.19
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6001499       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:30 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 286.548
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6057356       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:35 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 291.904
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6162054       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:41 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 297.323
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.617701       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:46 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 302.676
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6179073       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:51 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 308.029
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6181421       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:00:57 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 313.441
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6236324       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:02 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 318.856
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6267126       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:08 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 324.266
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6314707       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:13 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 329.674
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6362169       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:18 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 335.085
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6406431       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:24 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 340.492
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6531181       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:29 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 345.9
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6561053       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:35 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 351.303
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6583262       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:40 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 356.705
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6610993       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:45 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 362.111
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6626898       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:51 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 367.503
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6630234       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:01:56 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 372.842
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6634507       50       0      50        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:01 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 378.172
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.6704518       50       0      49        1      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:07 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 383.505
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.691263       50       0      46        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:12 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 388.904
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.7046232       50       0      44        6      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:18 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 394.293
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.7569273       50       0      35       15      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:23 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 399.684
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+           pct numtasks pending running complete killed failed_attempts
+map    1.00000      385       0       0      385      0               0
+reduce 0.80261       50       0      29       21      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:28 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 405.078
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.8364623       50       0      23       27      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:34 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 410.487
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.8646782       50       0      20       30      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:39 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 415.89
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.8853899       50       0      17       33      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:45 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 421.277
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9071769       50       0      14       36      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:50 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 426.673
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9339378       50       0      10       40      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:02:55 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 432.06
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9405141       50       0       9       41      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:01 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 437.452
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9471051       50       0       8       42      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:06 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 442.835
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9536338       50       0       7       43      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:12 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 448.223
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.960193       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:17 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 453.608
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9602136       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:22 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 458.992
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9602323       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:28 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 464.375
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9602542       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:33 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 469.759
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.960276       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:39 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 475.152
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9603058       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:44 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 480.529
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9603304       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:49 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 485.916
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9603558       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:03:55 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 491.302
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9603919       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:00 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 496.697
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9604347       50       0       6       44      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:05 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 502.077
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9735819       50       0       4       46      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:11 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 507.459
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9801515       50       0       3       47      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:16 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 512.85
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867188       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:22 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 518.233
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.986724       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:27 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 523.626
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867302       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:32 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 529.005
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867366       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:38 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 534.385
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867415       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:43 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 539.775
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867454       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:49 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 545.163
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867512       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:54 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 550.544
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867597       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:04:59 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 555.925
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867712       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:05 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 561.311
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9867766       50       0       2       48      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:10 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 566.699
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933528       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:15 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 572.079
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933559       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:21 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 577.46
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933586       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:26 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 582.842
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933603       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:32 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 588.226
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.993364       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:37 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 593.611
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933665       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:42 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 598.991
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933687       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:48 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 604.377
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933712       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:53 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 609.764
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933732       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:05:59 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 615.145
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933772       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:06:04 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 620.724
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933811       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:06:09 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 626.102
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.993384       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:06:15 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 631.487
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933865       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:06:20 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 636.864
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933891       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:06:26 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 642.24
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9933952       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:06:31 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 647.618
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000      385       0       0      385      0               0
+reduce 0.993402       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 21:06:36 2015] Name:rhipe--5-50-enwiki-latest-pages-articles.xml Job: job_1422482982071_1327  State: RUNNING Duration: 652.999
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1327/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000      385       0       0      385      0               0
+reduce 0.9934137       50       0       1       49      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+-------RHIPE 8--------
+2015-03-27 22:14:29,359 WARN  [main][NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Fri Mar 27 22:14:33 2015] Name:rhipe--30-60-enwiki-latest-pages-articles.xml Job: job_1422482982071_1437  State: PREP Duration: 121.203
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1437/
+       pct numtasks pending running complete killed failed_attempts
+map      0        0       0       0        0      0               0
+reduce   0        0       0       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Fri Mar 27 22:14:39 2015] Name:rhipe--30-60-enwiki-latest-pages-articles.xml Job: job_1422482982071_1437  State: RUNNING Duration: 126.979
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1437/
+       pct numtasks pending running complete killed failed_attempts
+map      0      385     385       0        0      0               0
+reduce   0       60      60       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Fri Mar 27 22:14:45 2015] Name:rhipe--30-60-enwiki-latest-pages-articles.xml Job: job_1422482982071_1437  State: RUNNING Duration: 132.861
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1437/
+       pct numtasks pending running complete killed failed_attempts
+map      0      385      68     317        0      0               0
+reduce   0       60      60       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Fri Mar 27 22:14:51 2015] Name:rhipe--30-60-enwiki-latest-pages-articles.xml Job: job_1422482982071_1437  State: RUNNING Duration: 138.293
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1437/
+              pct numtasks pending running complete killed failed_attempts
+map    0.01064779      385       0     385        0      0               0
+reduce 0.00000000       60      60       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Fri Mar 27 22:14:57 2015] Name:rhipe--30-60-enwiki-latest-pages-articles.xml Job: job_1422482982071_1437  State: RUNNING Duration: 144.116
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1437/
+              pct numtasks pending running complete killed failed_attempts
+map    0.03961474      385       0     385        0      0               0
+reduce 0.00000000       60      60       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------
+-------RHIPE 8--------

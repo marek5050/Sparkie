@@ -6,11 +6,11 @@ export PROJECT_HOME="$FWDIR"
 
 unset JAVA_HOME
 
-export R_PROFILE_USER="tmp/sparkR.profile"
+export R_PROFILE_USER="/tmp/sparkR.profile"
 
 if [ $# -gt 0 ]; then
   # If we are running an R program, only set libPaths and use Rscript
-cat > tmp/sparkR.profile << EOF
+cat > /tmp/sparkR.profile << EOF
 .First <- function() {
   projecHome <- Sys.getenv("PROJECT_HOME")
   .libPaths(c(paste(projecHome,"/lib", sep=""), .libPaths()))
@@ -22,7 +22,7 @@ EOF
 else
 
   # If we don't have an R file to run, initialize context and run R
-cat > tmp/sparkR.profile << EOF
+cat > /tmp/sparkR.profile << EOF
 .First <- function() {
   projecHome <- Sys.getenv("PROJECT_HOME")
   Sys.setenv(NOAWT=1)

@@ -1,0 +1,4 @@
+--------Spark 0 --------
+--------Spark 0 --------
+spark-0-book10.txt   data/book10.txt   out/spark-0-book10.txt
+--args is deprecated. Use --arg instead.

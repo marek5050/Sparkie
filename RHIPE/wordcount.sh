@@ -26,7 +26,7 @@ if(length(args) < 2){
   input.testnum <- args[[1]] 
   input.file.name <- args[[2]]
   num_reducers<- args[[4]]
-  num_mappers<- args[[3]]
+  num_mappers<- as.integer(args[[3]])
 }
 
 input.file.hdfs <- paste(input.user.dir,'/data/',input.file.name,sep='')
@@ -70,9 +70,9 @@ reducer <- expression(
 #           , mapred.reduce.tasks=num_reducers #CDH3,4
  
  mapred = list(
-            mapred.task.timeout=0
-            , mapreduce.job.maps=num_mappers #CDH5
-            , mapreduce.job.reduces= num_reducers #CDH5
+            mapred.task.timeout=1
+	    , mapred.max.split.size=as.integer(1024*1024*num_mappers)
+            , mapreduce.job.reduces=num_reducers #CDH3,4
         )
 rhipe.results <- rhwatch(
                         map=mapper, reduce=reducer,
@@ -93,11 +93,11 @@ results <- rhread(paste(output.dir.hdfs, "/part-*", sep = ""))
 
 # the data.frame() below converts list of (key,val) to a list of keys and
 # a list of vals, then dumps these into a file with tab delimitation
-write.table( data.frame(words=unlist(lapply(X=results,FUN="[[",1)), 
-                        count=unlist(lapply(X=results,FUN="[[",2))), 
-             file=output.file.local,
-             quote=FALSE, 
-             row.names=FALSE, 
-             col.names=FALSE,
-             sep="\t"
-             )
+ write.table( data.frame(words=unlist(lapply(X=results,FUN="[[",1)), 
+                         count=unlist(lapply(X=results,FUN="[[",2))), 
+              file=output.file.local,
+              quote=FALSE, 
+              row.names=FALSE, 
+              col.names=FALSE,
+              sep="\t"
+              )

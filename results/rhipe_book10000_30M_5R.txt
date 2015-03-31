@@ -1,0 +1,542 @@
+real	5m11.246s
+user	0m37.541s
+sys	0m1.302s
+
+Loading required package: methods
+Loading required package: codetools
+Loading required package: rJava
+------------------------------------------------
+| Please call rhinit() else RHIPE will not run |
+------------------------------------------------
+Rhipe: Using Rhipe.jar file
+Initializing Rhipe v0.75.0
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in
+[jar:file:/usr/lib/hadoop/client/slf4j-log4j12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in
+[jar:file:/usr/lib/hadoop/lib/slf4j-log4j12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an
+explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Initializing mapfile caches
+Deleted 1 file
+Saving 1 parameter to /tmp/rhipe-temp-params-72f846ef6393be23e3725604beb64cb2
+(use rhclean to delete all temp files)
+Read 14158 objects(577.1 KB) in 1.29 seconds
+Read 14158 objects(577.1 KB) in 0.59 seconds
+
+-------RHIPE 4--------
+2015-03-25 19:23:49,380 WARN  [main][NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[Wed Mar 25 19:23:53 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: PREP Duration: 116.84
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+       pct numtasks pending running complete killed failed_attempts
+map      0        0       0       0        0      0               0
+reduce   0        0       0       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:23:58 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 122.582
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+       pct numtasks pending running complete killed failed_attempts
+map      0       30      30       0        0      0               0
+reduce   0        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:04 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 128.291
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+       pct numtasks pending running complete killed failed_attempts
+map      0       30       0      30        0      0               0
+reduce   0        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:10 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 133.759
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+              pct numtasks pending running complete killed failed_attempts
+map    0.01670534       30       0      30        0      0               0
+reduce 0.00000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:15 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 139.332
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+              pct numtasks pending running complete killed failed_attempts
+map    0.05464521       30       0      30        0      0               0
+reduce 0.00000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:21 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 144.809
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+              pct numtasks pending running complete killed failed_attempts
+map    0.09941486       30       0      30        0      0               0
+reduce 0.00000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:26 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 150.301
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.1578516       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:32 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 155.703
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+            pct numtasks pending running complete killed failed_attempts
+map    0.216922       30       0      30        0      0               0
+reduce 0.000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:37 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 161.087
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.2675907       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:42 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 166.458
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.3049739       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:48 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 171.91
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.3619186       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:53 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 177.255
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.4193672       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:24:58 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 182.53
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.4690422       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:04 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 187.793
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.5084804       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:09 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 193.075
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.5638807       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:14 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 198.366
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6183766       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:19 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 203.663
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6452728       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:25 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 208.881
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6585734       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:30 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 214.097
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6653646       30       0      30        0      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:35 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 219.308
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6780999       30       0      29        1      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:40 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 224.521
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.6891999       30       0      28        2      0               0
+reduce 0.0000000        5       5       0        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:46 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 229.759
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.7890999       30       0      19       11      0               0
+reduce 0.0000000        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:51 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 235.03
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.8889999       30       0      10       20      0               0
+reduce 0.1444445        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:25:56 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 240.283
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    0.9778000       30       0       2       28      0               0
+reduce 0.1444445        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:01 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 245.527
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.1444445        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:07 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 250.763
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.2288889        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:12 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 256.023
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.2288889        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:17 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 261.26
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.2777778        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:22 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 266.511
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.3149973        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:27 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 271.742
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.3390121        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:33 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 276.973
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.4647484        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:38 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 282.211
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.5281552        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:43 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 287.441
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000       30       0       0       30      0               0
+reduce 0.578055        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:48 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 292.711
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.5867521        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:54 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 297.936
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.5868069        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:26:59 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 303.162
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.6001834        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:04 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 308.392
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.6002499        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:09 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 313.615
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.6003155        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:15 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 318.835
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.6003493        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:20 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 324.05
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000       30       0       0       30      0               0
+reduce 0.602707        5       0       5        0      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:25 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 329.274
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.7336524        5       0       4        1      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:30 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 334.498
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000       30       0       0       30      0               0
+reduce 0.733698        5       0       4        1      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:35 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 339.715
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.8002466        5       0       3        2      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:41 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 344.958
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.8002905        5       0       3        2      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:46 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 350.178
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.8668407        5       0       2        3      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:51 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 355.407
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.8668553        5       0       2        3      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:27:56 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 360.622
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9333867        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:02 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 365.838
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9333976        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:07 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 371.052
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334081        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:12 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 376.28
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334137        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:17 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 381.494
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334276        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:22 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 386.707
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334396        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:28 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 391.921
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334453        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:33 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 397.174
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334585        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:38 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 402.403
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+            pct numtasks pending running complete killed failed_attempts
+map    1.000000       30       0       0       30      0               0
+reduce 0.933472        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:43 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 407.612
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334836        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds
+[Wed Mar 25 19:28:49 2015] Name:rhipe--5-5-book10000.txt Job: job_1422482982071_1313  State: RUNNING Duration: 412.82
+URL: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_1313/
+             pct numtasks pending running complete killed failed_attempts
+map    1.0000000       30       0       0       30      0               0
+reduce 0.9334906        5       0       1        4      0               0
+       killed_attempts
+map                  0
+reduce               0
+Waiting 5 seconds

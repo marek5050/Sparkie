@@ -1,0 +1,22 @@
+Loading required package: methods
+Loading required package: codetools
+Loading required package: rJava
+------------------------------------------------
+| Please call rhinit() else RHIPE will not run |
+------------------------------------------------
+Rhipe: Using Rhipe.jar file
+Initializing Rhipe v0.75.0
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/lib/hadoop/client/slf4j-log4j12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/lib/hadoop/lib/slf4j-log4j12.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Log4jLoggerFactory]
+Initializing mapfile caches
+Deleted 1 file
+Saving 1 parameter to /tmp/rhipe-temp-params-3373efe3bef822c7e419569df465f054 (use rhclean to delete all temp files)
+
+Warning message:
+In Rhipe:::rhwatch.runner(job = job, mon.sec = mon.sec, readback = readback,  :
+  Number of output records is 266729643 which is greater than rhoptions()$reduce.output.records.warn
+. Consider running a mapreduce to make this smaller, since reading so many key-value pairs is slow in R
+Execution halted

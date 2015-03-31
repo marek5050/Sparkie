@@ -1,0 +1,12 @@
+--------Spark 8 --------
+spark-8-enwiki-latest-pages-articles.xml   data/enwiki-latest-pages-articles.xml   out/spark-8-enwiki-latest-pages-articles.xml
+--args is deprecated. Use --arg instead.
+Traceback (most recent call last):
+  File "/home/dotcz12/TACCPROJECT/Spark/spark.py", line 17, in <module>
+    output = counts.collect()
+  File "/usr/lib/spark/python/pyspark/rdd.py", line 583, in collect
+    bytesInJava = self._jrdd.collect().iterator()
+  File "/usr/lib/spark/python/lib/py4j-0.8.1-src.zip/py4j/java_gateway.py", line 535, in __call__
+  File "/usr/lib/spark/python/lib/py4j-0.8.1-src.zip/py4j/java_gateway.py", line 363, in send_command
+  File "/usr/lib/spark/python/lib/py4j-0.8.1-src.zip/py4j/java_gateway.py", line 472, in send_command
+  File "/usr/lib64/python2.6/socket.py", line 433, in readline

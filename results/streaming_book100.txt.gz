@@ -1,0 +1,9 @@
+--------Streaming 2--------
+-----------PYTHON--------
+0 1
+py book100.txt.gz mapper.py reducer.py
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob7197374530623424687.jar tmpDir=null
+-----------R--------
+0 1
+r book100.txt.gz mapper.R reducer.R
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob3215696303311160523.jar tmpDir=null
