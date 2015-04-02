@@ -1,43 +1,47 @@
-#!/usr/bin/env Rscript
-
-# Calculate wordcount (https://github.com/RevolutionAnalytics/rmr2/blob/master/docs/tutorial.md)
-# Requires rmr package (https://github.com/RevolutionAnalytics/RHadoop/wiki).
+#!/usr/bin/Rscript
 
 library(rmr2)
 
-bp = rmr.options("backend.parameters");
-#bp$hadoop[1] = "mapreduce.map.java.opts=-Xmx1024M";
-#bp$hadoop[2] = "mapreduce.reduce.java.opts=-Xmx512M";
-bp$hadoop[1] = "mapred.tasktracker.map.tasks.maximum=1";
-bp$hadoop[2] = "mapred.tasktracker.reduce.tasks.maximum=1";
-#bp$hadoop[3] = "mapreduce.map.memory.mb=1280";
-#bp$hadoop[4] = "mapreduce.reduce.memory.mb=2560";
+args=commandArgs(trailingOnly = TRUE) 
+
+
+
+bp =
+  list(
+    hadoop =
+      list(
+        D = paste("mapred.job.name=", args[[1]], sep=''),
+        D = "mapreduce.map.memory.mb=11500",
+        D = "mapreduce.reduce.memory.mb=11500",
+        D = "mapreduce.map.java.opts=-Xmx11500M",
+        D = "mapreduce.reduce.java.opts=-Xmx11500M",
+        D = "mapreduce.tasktracker.map.tasks.maximum=1",
+        D = "mapreduce.tasktracker.reduce.tasks.maximum=1",
+        D = paste("mapreduce.job.maps=", args[[2]], sep=''),
+        D = paste("mapred.reduce.tasks=", args[[3]], sep='')
+                                        ))
+
+
 rmr.options(backend.parameters = bp);
+
 rmr.options("backend.parameters")
 
 wordcount = 
-  function(
-    input, 
-    output = NULL, 
-    pattern = " "){
-    wc.map = 
-      function(., lines) {
-        keyval(
-          unlist(
-            strsplit(
-              x = lines,
-              split = pattern)),
-          1)}
-    wc.reduce =
-      function(word, counts ) {
-        keyval(word, sum(counts))}
+    function(input, output = NULL, pattern = " "){
+        wc.map = function(., lines) {
+            keyval(unlist(strsplit(
+               x = lines,
+               split = pattern)),1)}
 
-    mapreduce(
-      input = input ,
-      output = output,
-      input.format = "text",
-      map = wc.map,
-      reduce = wc.reduce,
-      combine = T)}
+ 	wc.reduce = function(word, counts ) {
+	    keyval(word, sum(counts))}
+	      
+	mapreduce(input = input,
+            output = output,
+            input.format = "text",
+	    map = wc.map,
+            reduce = wc.reduce,
+	    combine = T, 
+            verbose = TRUE)}
 
-from.dfs(wordcount("enwiki-latest-abstract1.xml"))
+wordcount(args[[4]])
