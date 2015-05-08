@@ -1,0 +1,397 @@
+2015-05-03 19:12:08,192 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 19:12:08,841 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 19:14:02,160 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 19:14:02,792 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 19:14:05,072 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 19:14:05,075 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 19:14:05,076 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 19:14:05,079 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-a9d67300d7ad540c1ea6c7e633840703#rhipe-temp-params-a9d67300d7ad540c1ea6c7e633840703
+2015-05-03 19:14:05,093 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 19:14:05,103 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-11ffd3017a990dc24bc072e1a5215642
+2015-05-03 19:14:05,164 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 19:14:05,813 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 19:14:05,962 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 19:14:06,203 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6190
+2015-05-03 19:14:06,560 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6190
+2015-05-03 19:14:06,624 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6190/
+2015-05-03 19:14:21,810 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 19:14:21,842 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-11ffd3017a990dc24bc072e1a5215642
+2015-05-03 19:45:37,706 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 19:45:38,353 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 19:45:39,423 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 19:45:39,426 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 19:45:39,427 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 19:45:39,430 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-bbad7ed93b9b018eb15e6c62ee820b0a#rhipe-temp-params-bbad7ed93b9b018eb15e6c62ee820b0a
+2015-05-03 19:45:39,444 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 19:45:39,454 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-1c8d144760a645e18f7a37df498a90da
+2015-05-03 19:45:39,515 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 19:45:39,862 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 19:45:40,272 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 19:45:40,506 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6191
+2015-05-03 19:45:40,858 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6191
+2015-05-03 19:45:40,909 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6191/
+2015-05-03 19:46:00,953 INFO  [main][org.apache.hadoop.mapred.ClientServiceDelegate] Application state is completed. FinalApplicationStatus=SUCCEEDED. Redirecting to job history server
+2015-05-03 19:46:01,957 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:02,957 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:03,958 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:04,959 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:05,960 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:06,960 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:07,961 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:08,962 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:09,963 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:10,964 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:11,082 INFO  [main][org.apache.hadoop.mapred.ClientServiceDelegate] Application state is completed. FinalApplicationStatus=SUCCEEDED. Redirecting to job history server
+2015-05-03 19:46:12,083 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:13,084 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:14,085 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:15,086 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:16,086 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:17,943 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:18,944 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:19,945 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 19:46:20,946 INFO  [main][org.apache.hadoop.ipc.Client] Retrying connect to server: name.rustler.tacc.utexas.edu/129.114.57.132:10020. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+2015-05-03 20:06:42,715 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:06:43,381 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:08:59,848 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:09:00,538 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:09:02,430 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:09:02,433 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:09:02,435 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:09:02,438 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-e107d15ab6fa7da5afb2d37546cd7f76#rhipe-temp-params-e107d15ab6fa7da5afb2d37546cd7f76
+2015-05-03 20:09:02,451 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:09:02,461 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-10348ca00499278cb482f8fecc9ee443
+2015-05-03 20:09:02,522 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:09:02,942 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:09:03,103 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:09:03,403 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6192
+2015-05-03 20:09:03,762 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6192
+2015-05-03 20:09:03,825 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6192/
+2015-05-03 20:09:19,166 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:09:19,196 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-10348ca00499278cb482f8fecc9ee443
+2015-05-03 20:17:56,815 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:17:57,491 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:17:58,369 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:17:58,372 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:17:58,373 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:17:58,376 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-05b91e0909f21909cd24ab9f56c9958e#rhipe-temp-params-05b91e0909f21909cd24ab9f56c9958e
+2015-05-03 20:17:58,390 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:17:58,399 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-008e30c89ab8b286b8dbd2f986870e16
+2015-05-03 20:17:58,460 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:17:59,072 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:17:59,232 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:17:59,521 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6193
+2015-05-03 20:17:59,875 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6193
+2015-05-03 20:17:59,933 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6193/
+2015-05-03 20:18:15,231 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:18:15,264 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-008e30c89ab8b286b8dbd2f986870e16
+2015-05-03 20:19:01,404 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:19:02,369 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:19:03,803 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:19:03,805 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:19:03,807 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:19:03,810 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-777b926a23c68db1653eb392310340be#rhipe-temp-params-777b926a23c68db1653eb392310340be
+2015-05-03 20:19:03,823 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:19:03,833 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-950f3e6314f0bcb1b0ab2d905c1bd8aa
+2015-05-03 20:19:03,896 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:19:04,523 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:19:04,672 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:19:04,946 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6194
+2015-05-03 20:19:05,302 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6194
+2015-05-03 20:19:05,363 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6194/
+2015-05-03 20:19:20,553 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:19:20,595 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-950f3e6314f0bcb1b0ab2d905c1bd8aa
+2015-05-03 20:20:21,866 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:20:22,537 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:20:23,420 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:20:23,422 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:20:23,424 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:20:23,427 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-786e2832f9267b3e21e5f1113402b751#rhipe-temp-params-786e2832f9267b3e21e5f1113402b751
+2015-05-03 20:20:23,440 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:20:23,450 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-47792347f26e15ef30cdf89cbe08fb42
+2015-05-03 20:20:23,514 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:20:24,144 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:20:24,288 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:20:24,580 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6195
+2015-05-03 20:20:24,938 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6195
+2015-05-03 20:20:24,997 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6195/
+2015-05-03 20:20:40,212 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:20:40,245 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-47792347f26e15ef30cdf89cbe08fb42
+2015-05-03 20:20:57,376 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:20:58,332 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:20:59,723 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:20:59,726 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:20:59,728 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:20:59,731 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-ff5bed9c8ecc4140177f7a4633766b30#rhipe-temp-params-ff5bed9c8ecc4140177f7a4633766b30
+2015-05-03 20:20:59,744 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:20:59,754 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-4f51225dab16285fc10175fa0b2b6609
+2015-05-03 20:20:59,814 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:21:00,459 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:21:00,604 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:21:00,890 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6196
+2015-05-03 20:21:01,248 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6196
+2015-05-03 20:21:01,311 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6196/
+2015-05-03 20:21:16,570 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:21:16,608 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-4f51225dab16285fc10175fa0b2b6609
+2015-05-03 20:21:51,898 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:21:52,870 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:21:54,294 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:21:54,295 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.reduce.tasks is deprecated. Instead, use mapreduce.job.reduces
+2015-05-03 20:21:54,297 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:21:54,299 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:21:54,302 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-f108445212690fdfc7cff6c430c03eeb#rhipe-temp-params-f108445212690fdfc7cff6c430c03eeb
+2015-05-03 20:21:54,315 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:21:54,325 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-0910bcb0db6540a6944b41afb2aa5e7c
+2015-05-03 20:21:54,386 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:21:55,048 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:21:55,209 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:21:55,492 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6197
+2015-05-03 20:21:55,849 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6197
+2015-05-03 20:21:55,908 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6197/
+2015-05-03 20:22:09,241 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Killed application application_1422482982071_6197
+2015-05-03 20:22:09,271 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:22:09,303 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-0910bcb0db6540a6944b41afb2aa5e7c
+2015-05-03 20:23:51,276 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:23:51,949 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:24:45,887 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:24:46,858 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:25:14,986 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:25:15,616 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:25:40,888 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:25:41,851 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:25:43,151 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:25:43,154 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:25:43,156 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:25:43,159 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-84e0b606482f6d56572adb6002ea3422#rhipe-temp-params-84e0b606482f6d56572adb6002ea3422
+2015-05-03 20:25:43,172 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:25:43,183 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-31e68c022871e22c40e4c6aeee365175
+2015-05-03 20:25:43,246 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:25:43,893 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:25:44,046 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:25:44,313 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6198
+2015-05-03 20:25:44,672 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6198
+2015-05-03 20:25:44,737 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6198/
+2015-05-03 20:26:00,129 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:26:00,162 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-31e68c022871e22c40e4c6aeee365175
+2015-05-03 20:26:46,249 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:26:46,926 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:26:47,791 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:26:47,793 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:26:47,795 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:26:47,798 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-a08883d8ab0790dd43b8dc31378dcdfe#rhipe-temp-params-a08883d8ab0790dd43b8dc31378dcdfe
+2015-05-03 20:26:47,811 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:26:47,822 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-8c5ef1c7ef75f537aa29c1c5995b3f24
+2015-05-03 20:26:47,885 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:26:48,525 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:26:48,669 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:26:48,952 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6199
+2015-05-03 20:26:49,312 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6199
+2015-05-03 20:26:49,373 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6199/
+2015-05-03 20:28:10,292 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:28:10,962 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:28:11,798 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:28:11,800 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:28:11,802 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:28:11,805 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-668f6d26753deebeced203eae87f2dc5#rhipe-temp-params-668f6d26753deebeced203eae87f2dc5
+2015-05-03 20:28:11,818 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:28:11,829 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-8f7d98cd97ffadce8613fdc6891ea854
+2015-05-03 20:28:11,890 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:28:12,531 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:28:12,684 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:28:12,934 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6200
+2015-05-03 20:28:13,294 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6200
+2015-05-03 20:28:13,357 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6200/
+2015-05-03 20:28:28,466 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 20:28:28,509 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-8f7d98cd97ffadce8613fdc6891ea854
+2015-05-03 20:29:11,211 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:29:11,892 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:29:13,017 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:29:13,020 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:29:13,021 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:29:13,024 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-259563303af9f7eca5bf6068ab7de7c3#rhipe-temp-params-259563303af9f7eca5bf6068ab7de7c3
+2015-05-03 20:29:13,038 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:29:13,048 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-6dc5207171469d661cf3498373d062bd
+2015-05-03 20:29:13,110 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:29:13,731 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:29:13,867 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:29:14,150 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6201
+2015-05-03 20:29:14,507 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6201
+2015-05-03 20:29:14,569 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6201/
+2015-05-03 20:32:15,782 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:32:16,453 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:32:17,660 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:32:17,662 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:32:17,664 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:32:17,667 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-12ce1f18907d7235402862f44c9dbd17#rhipe-temp-params-12ce1f18907d7235402862f44c9dbd17
+2015-05-03 20:32:17,680 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:32:17,691 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-dc24db7e8302e6db2cd9b822ab18eb32
+2015-05-03 20:32:17,750 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:32:18,411 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:32:18,539 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:32:18,789 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6202
+2015-05-03 20:32:19,137 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6202
+2015-05-03 20:32:19,202 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6202/
+2015-05-03 20:33:44,372 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:33:45,303 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:33:46,462 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 20:33:46,465 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 20:33:46,467 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 20:33:46,470 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-7c1b05dac20b7cbebb7c3529a4461cca#rhipe-temp-params-7c1b05dac20b7cbebb7c3529a4461cca
+2015-05-03 20:33:46,483 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 20:33:46,494 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-0ea22f7f4f0528a8aeef9053628960cf
+2015-05-03 20:33:46,556 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:33:46,916 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 20:33:47,052 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 20:33:47,294 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6203
+2015-05-03 20:33:47,654 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6203
+2015-05-03 20:33:47,718 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6203/
+2015-05-03 20:38:10,765 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:38:11,399 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:40:34,899 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:40:35,864 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:40:50,023 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:40:50,654 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:41:55,523 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:41:56,468 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:45:41,388 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:45:42,049 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:54:07,436 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:54:08,403 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:54:47,751 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:54:48,417 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:55:41,512 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:55:42,107 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 20:57:42,692 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 20:57:43,325 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 21:41:44,883 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 21:41:45,542 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:03:05,241 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:03:05,886 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:03:23,410 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:03:24,077 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:03:38,759 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:03:39,390 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:04:03,282 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:04:03,913 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:04:05,067 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:04:05,070 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:04:05,071 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:04:05,074 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-12b8cac807597b0a37cd7eefc2028683#rhipe-temp-params-12b8cac807597b0a37cd7eefc2028683
+2015-05-03 22:04:05,088 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:04:05,098 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-bb4be08fff5577b61d97b25f88645101
+2015-05-03 22:04:05,159 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:04:05,818 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:04:05,965 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:04:06,254 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6205
+2015-05-03 22:04:06,617 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6205
+2015-05-03 22:04:06,681 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6205/
+2015-05-03 22:04:22,074 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 22:04:22,108 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-bb4be08fff5577b61d97b25f88645101
+2015-05-03 22:08:13,827 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:08:14,501 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:08:15,810 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:08:15,813 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:08:15,815 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:08:15,818 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-c2fb7f343e0a6738b0869c0cd754fb76#rhipe-temp-params-c2fb7f343e0a6738b0869c0cd754fb76
+2015-05-03 22:08:15,831 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:08:15,841 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-e31d17ec7ccbbadb494eafb71d94f2b7
+2015-05-03 22:08:15,905 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:08:16,557 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:08:16,724 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:08:17,010 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6206
+2015-05-03 22:08:17,374 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6206
+2015-05-03 22:08:17,438 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6206/
+2015-05-03 22:08:32,659 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 22:08:32,701 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/tmp/rhipe-temp-e31d17ec7ccbbadb494eafb71d94f2b7
+2015-05-03 22:13:24,434 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:13:25,095 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:13:25,979 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:13:25,981 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:13:25,983 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:13:25,986 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-07f88ddd41eb90a72792c6286d6b5886#rhipe-temp-params-07f88ddd41eb90a72792c6286d6b5886
+2015-05-03 22:13:25,999 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:13:26,010 DEBUG [main][org.godhuli.rhipe.RHMR] /tmp/rhipe-temp-45b6278f8cbfabf018bd1f7b3b0e5555
+2015-05-03 22:13:26,070 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:13:26,702 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:13:26,846 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:13:27,128 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6207
+2015-05-03 22:13:27,481 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6207
+2015-05-03 22:13:27,540 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6207/
+2015-05-03 22:16:12,323 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:16:12,963 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:16:43,915 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:16:44,582 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:16:45,993 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:16:45,995 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:16:45,997 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:16:46,000 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-e7c3582c0d394743bd22b2d9a33ecf41#rhipe-temp-params-e7c3582c0d394743bd22b2d9a33ecf41
+2015-05-03 22:16:46,013 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:16:46,023 DEBUG [main][org.godhuli.rhipe.RHMR] hdfs:///user/dotcz12/kmeansout
+2015-05-03 22:16:46,087 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:16:46,752 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:16:46,896 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:16:47,186 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6208
+2015-05-03 22:16:47,548 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6208
+2015-05-03 22:16:47,611 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6208/
+2015-05-03 22:17:11,749 INFO  [main][org.apache.hadoop.io.compress.CodecPool] Got brand-new decompressor [.deflate]
+2015-05-03 22:17:50,403 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:17:51,088 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:17:52,487 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:17:52,490 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:17:52,491 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:17:52,494 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-b1e451262b11d26130968dfe53bb9d3b#rhipe-temp-params-b1e451262b11d26130968dfe53bb9d3b
+2015-05-03 22:17:52,508 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:17:52,518 DEBUG [main][org.godhuli.rhipe.RHMR] hdfs:///user/dotcz12/kmeansout
+2015-05-03 22:17:52,585 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:17:53,259 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:17:53,411 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:17:53,701 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6209
+2015-05-03 22:17:54,064 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6209
+2015-05-03 22:17:54,128 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6209/
+2015-05-03 22:18:18,152 INFO  [main][org.apache.hadoop.io.compress.CodecPool] Got brand-new decompressor [.deflate]
+2015-05-03 22:18:53,312 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:18:53,989 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:18:54,847 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:18:54,850 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:18:54,852 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:18:54,855 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-e39ef6723130a7594c4a6638191f6009#rhipe-temp-params-e39ef6723130a7594c4a6638191f6009
+2015-05-03 22:18:54,868 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:18:54,878 DEBUG [main][org.godhuli.rhipe.RHMR] hdfs:///user/dotcz12/kmeansout
+2015-05-03 22:18:54,952 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:18:55,600 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:18:55,735 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:18:55,977 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6210
+2015-05-03 22:18:56,338 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6210
+2015-05-03 22:18:56,401 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6210/
+2015-05-03 22:19:20,584 INFO  [main][org.apache.hadoop.io.compress.CodecPool] Got brand-new decompressor [.deflate]
+2015-05-03 22:20:58,694 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:20:59,372 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:21:00,432 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:21:00,434 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:21:00,436 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:21:00,439 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-95eca38c47d78e9be7ae44331c23d0e7#rhipe-temp-params-95eca38c47d78e9be7ae44331c23d0e7
+2015-05-03 22:21:00,453 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:21:00,462 DEBUG [main][org.godhuli.rhipe.RHMR] hdfs:///user/dotcz12/kmeansout
+2015-05-03 22:21:00,532 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:21:01,198 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:21:01,341 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:21:01,583 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6211
+2015-05-03 22:21:01,940 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6211
+2015-05-03 22:21:01,994 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6211/
+2015-05-03 22:21:26,220 INFO  [main][org.apache.hadoop.io.compress.CodecPool] Got brand-new decompressor [.deflate]
+2015-05-03 22:21:56,739 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-05-03 22:21:57,385 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:21:58,490 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.output.compress is deprecated. Instead, use mapreduce.output.fileoutputformat.compress
+2015-05-03 22:21:58,492 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.job.reuse.jvm.num.tasks is deprecated. Instead, use mapreduce.job.jvm.numtasks
+2015-05-03 22:21:58,494 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapred.compress.map.output is deprecated. Instead, use mapreduce.map.output.compress
+2015-05-03 22:21:58,497 INFO  [main][org.godhuli.rhipe.RHMR] Adding to cache file:/tmp/rhipe-temp-params-2e5681b57e76b72d8fac030ab29e7625#rhipe-temp-params-2e5681b57e76b72d8fac030ab29e7625
+2015-05-03 22:21:58,511 INFO  [main][org.apache.hadoop.conf.Configuration.deprecation] mapreduce.task.classpath.user.precedence is deprecated. Instead, use mapreduce.job.user.classpath.first
+2015-05-03 22:21:58,520 DEBUG [main][org.godhuli.rhipe.RHMR] hdfs:///user/dotcz12/kmeansout
+2015-05-03 22:21:58,591 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+2015-05-03 22:21:59,240 INFO  [main][org.apache.hadoop.mapreduce.lib.input.FileInputFormat] Total input paths to process : 1
+2015-05-03 22:21:59,392 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] number of splits:1
+2015-05-03 22:21:59,700 INFO  [main][org.apache.hadoop.mapreduce.JobSubmitter] Submitting tokens for job: job_1422482982071_6212
+2015-05-03 22:22:00,060 INFO  [main][org.apache.hadoop.yarn.client.api.impl.YarnClientImpl] Submitted application application_1422482982071_6212
+2015-05-03 22:22:00,124 INFO  [main][org.apache.hadoop.mapreduce.Job] The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_6212/
+2015-05-03 22:22:20,605 INFO  [main][org.apache.hadoop.fs.TrashPolicyDefault] Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+2015-05-03 22:22:20,633 INFO  [main][org.godhuli.rhipe.FileUtils] Deleted hdfs://name.rustler.tacc.utexas.edu:8020/user/dotcz12/kmeansout
