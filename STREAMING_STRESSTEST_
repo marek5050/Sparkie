@@ -1,0 +1,2197 @@
+15/04/20 20:06:15 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted out/stream-py-0-googlebooks-eng-all-5gram-20120701-on
+324 53
+py googlebooks-eng-all-5gram-20120701-on mapper.py reducer.py
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=py-324-53-googlebooks-eng-all-5gram-20120701-on -Dmapreduce.job.maps=324 -Dmapreduce.job.reduces=53 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.py,./reducer.py -combiner ./reducer.py -mapper ./mapper.py -reducer ./reducer.py -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-on -output ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-on
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob9089924133744088479.jar tmpDir=null
+15/04/20 20:06:18 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:06:18 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:06:19 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.203:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:06:19 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:06:19 INFO mapreduce.JobSubmitter: number of splits:324
+15/04/20 20:06:20 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5880
+15/04/20 20:06:20 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5880
+15/04/20 20:06:20 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5880/
+15/04/20 20:06:20 INFO mapreduce.Job: Running job: job_1422482982071_5880
+15/04/20 20:06:25 INFO mapreduce.Job: Job job_1422482982071_5880 running in uber mode : false
+15/04/20 20:06:25 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:06:36 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:06:37 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:06:38 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 20:06:39 INFO mapreduce.Job:  map 27% reduce 0%
+15/04/20 20:06:40 INFO mapreduce.Job:  map 36% reduce 0%
+15/04/20 20:06:41 INFO mapreduce.Job:  map 41% reduce 0%
+15/04/20 20:06:42 INFO mapreduce.Job:  map 47% reduce 0%
+15/04/20 20:06:43 INFO mapreduce.Job:  map 54% reduce 0%
+15/04/20 20:06:44 INFO mapreduce.Job:  map 58% reduce 0%
+15/04/20 20:06:45 INFO mapreduce.Job:  map 62% reduce 0%
+15/04/20 20:06:46 INFO mapreduce.Job:  map 65% reduce 0%
+15/04/20 20:06:47 INFO mapreduce.Job:  map 66% reduce 0%
+15/04/20 20:06:49 INFO mapreduce.Job:  map 67% reduce 0%
+15/04/20 20:07:14 INFO mapreduce.Job:  map 68% reduce 0%
+15/04/20 20:07:15 INFO mapreduce.Job:  map 71% reduce 0%
+15/04/20 20:07:16 INFO mapreduce.Job:  map 75% reduce 0%
+15/04/20 20:07:17 INFO mapreduce.Job:  map 80% reduce 0%
+15/04/20 20:07:18 INFO mapreduce.Job:  map 85% reduce 0%
+15/04/20 20:07:19 INFO mapreduce.Job:  map 89% reduce 0%
+15/04/20 20:07:20 INFO mapreduce.Job:  map 93% reduce 0%
+15/04/20 20:07:21 INFO mapreduce.Job:  map 96% reduce 0%
+15/04/20 20:07:22 INFO mapreduce.Job:  map 98% reduce 0%
+15/04/20 20:07:23 INFO mapreduce.Job:  map 99% reduce 0%
+15/04/20 20:07:24 INFO mapreduce.Job:  map 100% reduce 0%
+15/04/20 20:07:25 INFO mapreduce.Job:  map 100% reduce 24%
+15/04/20 20:07:26 INFO mapreduce.Job:  map 100% reduce 45%
+15/04/20 20:07:27 INFO mapreduce.Job:  map 100% reduce 94%
+15/04/20 20:07:28 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:07:29 INFO mapreduce.Job: Job job_1422482982071_5880 completed successfully
+15/04/20 20:07:29 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=117422723
+		FILE: Number of bytes written=271281671
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=27107711807
+		HDFS: Number of bytes written=4622792
+		HDFS: Number of read operations=1131
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=106
+	Job Counters 
+		Launched map tasks=324
+		Launched reduce tasks=53
+		Data-local map tasks=236
+		Rack-local map tasks=88
+		Total time spent by all maps in occupied slots (ms)=31608414
+		Total time spent by all reduces in occupied slots (ms)=1065090
+		Total time spent by all map tasks (ms)=15804207
+		Total time spent by all reduce tasks (ms)=532545
+		Total vcore-seconds taken by all map tasks=15804207
+		Total vcore-seconds taken by all reduce tasks=532545
+		Total megabyte-seconds taken by all map tasks=127950859872
+		Total megabyte-seconds taken by all reduce tasks=6390540000
+	Map-Reduce Framework
+		Map input records=632973453
+		Map output records=5063787624
+		Map output bytes=37234747217
+		Map output materialized bytes=117525437
+		Input split bytes=51192
+		Combine input records=5063787624
+		Combine output records=7680870
+		Reduce input groups=317917
+		Reduce shuffle bytes=117525437
+		Reduce input records=7680870
+		Reduce output records=317917
+		Spilled Records=15361740
+		Shuffled Maps =17172
+		Failed Shuffles=0
+		Merged Map outputs=17172
+		GC time elapsed (ms)=103398
+		CPU time spent (ms)=11817440
+		Physical memory (bytes) snapshot=641285201920
+		Virtual memory (bytes) snapshot=3682293628928
+		Total committed heap usage (bytes)=1008921710592
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=27107660615
+	File Output Format Counters 
+		Bytes Written=4622792
+15/04/20 20:07:29 INFO streaming.StreamJob: Output directory: ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-on
+
+real	1m16.542s
+user	0m11.124s
+sys	0m0.665s
+585 95
+py googlebooks-eng-all-5gram-20120701-be mapper.py reducer.py
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=py-585-95-googlebooks-eng-all-5gram-20120701-be -Dmapreduce.job.maps=585 -Dmapreduce.job.reduces=95 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.py,./reducer.py -combiner ./reducer.py -mapper ./mapper.py -reducer ./reducer.py -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-be -output ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-be
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob6832338375387659065.jar tmpDir=null
+15/04/20 20:07:34 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:07:34 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:07:35 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.203:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:07:35 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:07:36 INFO mapreduce.JobSubmitter: number of splits:585
+15/04/20 20:07:36 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5881
+15/04/20 20:07:37 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5881
+15/04/20 20:07:37 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5881/
+15/04/20 20:07:37 INFO mapreduce.Job: Running job: job_1422482982071_5881
+15/04/20 20:07:43 INFO mapreduce.Job: Job job_1422482982071_5881 running in uber mode : false
+15/04/20 20:07:43 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:07:54 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:07:55 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:07:56 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:07:57 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 20:07:58 INFO mapreduce.Job:  map 19% reduce 0%
+15/04/20 20:07:59 INFO mapreduce.Job:  map 23% reduce 0%
+15/04/20 20:08:00 INFO mapreduce.Job:  map 29% reduce 0%
+15/04/20 20:08:01 INFO mapreduce.Job:  map 34% reduce 0%
+15/04/20 20:08:02 INFO mapreduce.Job:  map 39% reduce 0%
+15/04/20 20:08:03 INFO mapreduce.Job:  map 45% reduce 0%
+15/04/20 20:08:04 INFO mapreduce.Job:  map 49% reduce 0%
+15/04/20 20:08:05 INFO mapreduce.Job:  map 53% reduce 0%
+15/04/20 20:08:06 INFO mapreduce.Job:  map 57% reduce 0%
+15/04/20 20:08:07 INFO mapreduce.Job:  map 59% reduce 0%
+15/04/20 20:08:08 INFO mapreduce.Job:  map 61% reduce 0%
+15/04/20 20:08:09 INFO mapreduce.Job:  map 64% reduce 0%
+15/04/20 20:08:10 INFO mapreduce.Job:  map 65% reduce 0%
+15/04/20 20:08:12 INFO mapreduce.Job:  map 66% reduce 0%
+15/04/20 20:08:27 INFO mapreduce.Job:  map 67% reduce 0%
+15/04/20 20:08:37 INFO mapreduce.Job:  map 68% reduce 0%
+15/04/20 20:08:38 INFO mapreduce.Job:  map 69% reduce 0%
+15/04/20 20:08:39 INFO mapreduce.Job:  map 71% reduce 0%
+15/04/20 20:08:40 INFO mapreduce.Job:  map 74% reduce 0%
+15/04/20 20:08:41 INFO mapreduce.Job:  map 77% reduce 0%
+15/04/20 20:08:42 INFO mapreduce.Job:  map 80% reduce 0%
+15/04/20 20:08:43 INFO mapreduce.Job:  map 83% reduce 0%
+15/04/20 20:08:44 INFO mapreduce.Job:  map 85% reduce 0%
+15/04/20 20:08:46 INFO mapreduce.Job:  map 88% reduce 0%
+15/04/20 20:08:47 INFO mapreduce.Job:  map 90% reduce 0%
+15/04/20 20:08:48 INFO mapreduce.Job:  map 92% reduce 0%
+15/04/20 20:08:49 INFO mapreduce.Job:  map 94% reduce 17%
+15/04/20 20:08:50 INFO mapreduce.Job:  map 96% reduce 25%
+15/04/20 20:08:51 INFO mapreduce.Job:  map 97% reduce 25%
+15/04/20 20:08:52 INFO mapreduce.Job:  map 98% reduce 29%
+15/04/20 20:08:53 INFO mapreduce.Job:  map 99% reduce 31%
+15/04/20 20:08:55 INFO mapreduce.Job:  map 99% reduce 32%
+15/04/20 20:08:56 INFO mapreduce.Job:  map 100% reduce 33%
+15/04/20 20:09:13 INFO mapreduce.Job:  map 100% reduce 41%
+15/04/20 20:09:14 INFO mapreduce.Job:  map 100% reduce 69%
+15/04/20 20:09:15 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:09:17 INFO mapreduce.Job: Job job_1422482982071_5881 completed successfully
+15/04/20 20:09:17 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=202114555
+		FILE: Number of bytes written=470687790
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=49059356057
+		HDFS: Number of bytes written=5318177
+		HDFS: Number of read operations=2040
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=190
+	Job Counters 
+		Launched map tasks=585
+		Launched reduce tasks=95
+		Data-local map tasks=403
+		Rack-local map tasks=182
+		Total time spent by all maps in occupied slots (ms)=63732850
+		Total time spent by all reduces in occupied slots (ms)=6466642
+		Total time spent by all map tasks (ms)=31866425
+		Total time spent by all reduce tasks (ms)=3233321
+		Total vcore-seconds taken by all map tasks=31866425
+		Total vcore-seconds taken by all reduce tasks=3233321
+		Total megabyte-seconds taken by all map tasks=257990576800
+		Total megabyte-seconds taken by all reduce tasks=38799852000
+	Map-Reduce Framework
+		Map input records=1080252503
+		Map output records=8642020024
+		Map output bytes=66342343591
+		Map output materialized bytes=202447435
+		Input split bytes=92430
+		Combine input records=8642020024
+		Combine output records=12950612
+		Reduce input groups=361761
+		Reduce shuffle bytes=202447435
+		Reduce input records=12950612
+		Reduce output records=361761
+		Spilled Records=25901224
+		Shuffled Maps =55575
+		Failed Shuffles=0
+		Merged Map outputs=55575
+		GC time elapsed (ms)=243335
+		CPU time spent (ms)=22432590
+		Physical memory (bytes) snapshot=1157097689088
+		Virtual memory (bytes) snapshot=6641347592192
+		Total committed heap usage (bytes)=1820212609024
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=49059263627
+	File Output Format Counters 
+		Bytes Written=5318177
+15/04/20 20:09:17 INFO streaming.StreamJob: Output directory: ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-be
+
+real	1m47.750s
+user	0m11.762s
+sys	0m0.610s
+995 162
+py googlebooks-eng-all-5gram-20120701-in mapper.py reducer.py
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=py-995-162-googlebooks-eng-all-5gram-20120701-in -Dmapreduce.job.maps=995 -Dmapreduce.job.reduces=162 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.py,./reducer.py -combiner ./reducer.py -mapper ./mapper.py -reducer ./reducer.py -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-in -output ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-in
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob1622582638236148630.jar tmpDir=null
+15/04/20 20:09:22 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:09:23 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:09:23 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:09:24 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:09:24 INFO mapreduce.JobSubmitter: number of splits:995
+15/04/20 20:09:25 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5882
+15/04/20 20:09:25 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5882
+15/04/20 20:09:25 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5882/
+15/04/20 20:09:25 INFO mapreduce.Job: Running job: job_1422482982071_5882
+15/04/20 20:09:30 INFO mapreduce.Job: Job job_1422482982071_5882 running in uber mode : false
+15/04/20 20:09:30 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:09:41 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 20:09:42 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:09:43 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:09:44 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:09:45 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:09:46 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:09:47 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 20:09:48 INFO mapreduce.Job:  map 17% reduce 0%
+15/04/20 20:09:49 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 20:09:50 INFO mapreduce.Job:  map 22% reduce 0%
+15/04/20 20:09:51 INFO mapreduce.Job:  map 25% reduce 0%
+15/04/20 20:09:52 INFO mapreduce.Job:  map 28% reduce 0%
+15/04/20 20:09:53 INFO mapreduce.Job:  map 31% reduce 0%
+15/04/20 20:09:54 INFO mapreduce.Job:  map 34% reduce 0%
+15/04/20 20:09:55 INFO mapreduce.Job:  map 36% reduce 0%
+15/04/20 20:09:56 INFO mapreduce.Job:  map 38% reduce 0%
+15/04/20 20:09:57 INFO mapreduce.Job:  map 40% reduce 0%
+15/04/20 20:09:58 INFO mapreduce.Job:  map 41% reduce 0%
+15/04/20 20:09:59 INFO mapreduce.Job:  map 43% reduce 0%
+15/04/20 20:10:00 INFO mapreduce.Job:  map 44% reduce 0%
+15/04/20 20:10:01 INFO mapreduce.Job:  map 45% reduce 0%
+15/04/20 20:10:02 INFO mapreduce.Job:  map 46% reduce 0%
+15/04/20 20:10:06 INFO mapreduce.Job:  map 47% reduce 0%
+15/04/20 20:10:25 INFO mapreduce.Job:  map 48% reduce 0%
+15/04/20 20:10:27 INFO mapreduce.Job:  map 49% reduce 0%
+15/04/20 20:10:28 INFO mapreduce.Job:  map 50% reduce 0%
+15/04/20 20:10:29 INFO mapreduce.Job:  map 52% reduce 0%
+15/04/20 20:10:30 INFO mapreduce.Job:  map 53% reduce 0%
+15/04/20 20:10:31 INFO mapreduce.Job:  map 54% reduce 0%
+15/04/20 20:10:32 INFO mapreduce.Job:  map 56% reduce 0%
+15/04/20 20:10:33 INFO mapreduce.Job:  map 57% reduce 0%
+15/04/20 20:10:34 INFO mapreduce.Job:  map 59% reduce 0%
+15/04/20 20:10:35 INFO mapreduce.Job:  map 60% reduce 0%
+15/04/20 20:10:36 INFO mapreduce.Job:  map 62% reduce 0%
+15/04/20 20:10:37 INFO mapreduce.Job:  map 64% reduce 0%
+15/04/20 20:10:38 INFO mapreduce.Job:  map 66% reduce 1%
+15/04/20 20:10:39 INFO mapreduce.Job:  map 68% reduce 4%
+15/04/20 20:10:40 INFO mapreduce.Job:  map 70% reduce 6%
+15/04/20 20:10:41 INFO mapreduce.Job:  map 71% reduce 10%
+15/04/20 20:10:42 INFO mapreduce.Job:  map 73% reduce 13%
+15/04/20 20:10:43 INFO mapreduce.Job:  map 74% reduce 17%
+15/04/20 20:10:44 INFO mapreduce.Job:  map 75% reduce 20%
+15/04/20 20:10:45 INFO mapreduce.Job:  map 77% reduce 22%
+15/04/20 20:10:46 INFO mapreduce.Job:  map 78% reduce 22%
+15/04/20 20:10:47 INFO mapreduce.Job:  map 80% reduce 23%
+15/04/20 20:10:48 INFO mapreduce.Job:  map 82% reduce 23%
+15/04/20 20:10:49 INFO mapreduce.Job:  map 84% reduce 23%
+15/04/20 20:10:50 INFO mapreduce.Job:  map 85% reduce 23%
+15/04/20 20:10:51 INFO mapreduce.Job:  map 86% reduce 23%
+15/04/20 20:10:52 INFO mapreduce.Job:  map 88% reduce 23%
+15/04/20 20:10:54 INFO mapreduce.Job:  map 89% reduce 23%
+15/04/20 20:10:55 INFO mapreduce.Job:  map 90% reduce 23%
+15/04/20 20:11:13 INFO mapreduce.Job:  map 90% reduce 24%
+15/04/20 20:11:15 INFO mapreduce.Job:  map 91% reduce 24%
+15/04/20 20:11:18 INFO mapreduce.Job:  map 92% reduce 24%
+15/04/20 20:11:19 INFO mapreduce.Job:  map 92% reduce 25%
+15/04/20 20:11:23 INFO mapreduce.Job:  map 93% reduce 26%
+15/04/20 20:11:27 INFO mapreduce.Job:  map 94% reduce 27%
+15/04/20 20:11:31 INFO mapreduce.Job:  map 95% reduce 28%
+15/04/20 20:11:33 INFO mapreduce.Job:  map 96% reduce 28%
+15/04/20 20:11:34 INFO mapreduce.Job:  map 96% reduce 29%
+15/04/20 20:11:35 INFO mapreduce.Job:  map 97% reduce 29%
+15/04/20 20:11:36 INFO mapreduce.Job:  map 97% reduce 30%
+15/04/20 20:11:37 INFO mapreduce.Job:  map 98% reduce 30%
+15/04/20 20:11:39 INFO mapreduce.Job:  map 99% reduce 31%
+15/04/20 20:11:41 INFO mapreduce.Job:  map 99% reduce 32%
+15/04/20 20:11:42 INFO mapreduce.Job:  map 100% reduce 32%
+15/04/20 20:11:43 INFO mapreduce.Job:  map 100% reduce 33%
+15/04/20 20:11:48 INFO mapreduce.Job:  map 100% reduce 37%
+15/04/20 20:11:49 INFO mapreduce.Job:  map 100% reduce 64%
+15/04/20 20:11:50 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:11:52 INFO mapreduce.Job: Job job_1422482982071_5882 completed successfully
+15/04/20 20:11:53 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=416387430
+		FILE: Number of bytes written=947853719
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=83410212407
+		HDFS: Number of bytes written=9835518
+		HDFS: Number of read operations=3471
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=324
+	Job Counters 
+		Launched map tasks=995
+		Launched reduce tasks=162
+		Data-local map tasks=758
+		Rack-local map tasks=237
+		Total time spent by all maps in occupied slots (ms)=111100218
+		Total time spent by all reduces in occupied slots (ms)=25158164
+		Total time spent by all map tasks (ms)=55550109
+		Total time spent by all reduce tasks (ms)=12579082
+		Total vcore-seconds taken by all map tasks=55550109
+		Total vcore-seconds taken by all reduce tasks=12579082
+		Total megabyte-seconds taken by all map tasks=449733682464
+		Total megabyte-seconds taken by all reduce tasks=150948984000
+	Map-Reduce Framework
+		Map input records=1861420297
+		Map output records=14891362376
+		Map output bytes=113191145751
+		Map output materialized bytes=417353598
+		Input split bytes=157210
+		Combine input records=14891362376
+		Combine output records=26731289
+		Reduce input groups=672434
+		Reduce shuffle bytes=417353598
+		Reduce input records=26731289
+		Reduce output records=672434
+		Spilled Records=53462578
+		Shuffled Maps =161190
+		Failed Shuffles=0
+		Merged Map outputs=161190
+		GC time elapsed (ms)=474531
+		CPU time spent (ms)=37869020
+		Physical memory (bytes) snapshot=1968498790400
+		Virtual memory (bytes) snapshot=11301121138688
+		Total committed heap usage (bytes)=3096825663488
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=83410055197
+	File Output Format Counters 
+		Bytes Written=9835518
+15/04/20 20:11:53 INFO streaming.StreamJob: Output directory: ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-in
+
+real	2m35.599s
+user	0m13.035s
+sys	0m0.672s
+1335 217
+py googlebooks-eng-all-5gram-20120701-of mapper.py reducer.py
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=py-1335-217-googlebooks-eng-all-5gram-20120701-of -Dmapreduce.job.maps=1335 -Dmapreduce.job.reduces=217 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.py,./reducer.py -combiner ./reducer.py -mapper ./mapper.py -reducer ./reducer.py -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-of -output ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-of
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob2274376304843216102.jar tmpDir=null
+15/04/20 20:11:58 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:11:58 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:11:59 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:12:00 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:12:00 INFO mapreduce.JobSubmitter: number of splits:1335
+15/04/20 20:12:00 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5883
+15/04/20 20:12:01 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5883
+15/04/20 20:12:01 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5883/
+15/04/20 20:12:01 INFO mapreduce.Job: Running job: job_1422482982071_5883
+15/04/20 20:12:07 INFO mapreduce.Job: Job job_1422482982071_5883 running in uber mode : false
+15/04/20 20:12:07 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:12:19 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 20:12:20 INFO mapreduce.Job:  map 3% reduce 0%
+15/04/20 20:12:21 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:12:22 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:12:23 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:12:24 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:12:25 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:12:26 INFO mapreduce.Job:  map 14% reduce 0%
+15/04/20 20:12:27 INFO mapreduce.Job:  map 16% reduce 0%
+15/04/20 20:12:28 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 20:12:29 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 20:12:30 INFO mapreduce.Job:  map 22% reduce 0%
+15/04/20 20:12:31 INFO mapreduce.Job:  map 24% reduce 0%
+15/04/20 20:12:32 INFO mapreduce.Job:  map 26% reduce 0%
+15/04/20 20:12:33 INFO mapreduce.Job:  map 28% reduce 0%
+15/04/20 20:12:34 INFO mapreduce.Job:  map 29% reduce 0%
+15/04/20 20:12:35 INFO mapreduce.Job:  map 30% reduce 0%
+15/04/20 20:12:36 INFO mapreduce.Job:  map 31% reduce 0%
+15/04/20 20:12:37 INFO mapreduce.Job:  map 33% reduce 0%
+15/04/20 20:12:39 INFO mapreduce.Job:  map 34% reduce 0%
+15/04/20 20:12:41 INFO mapreduce.Job:  map 35% reduce 0%
+15/04/20 20:12:59 INFO mapreduce.Job:  map 36% reduce 0%
+15/04/20 20:13:03 INFO mapreduce.Job:  map 37% reduce 0%
+15/04/20 20:13:04 INFO mapreduce.Job:  map 38% reduce 0%
+15/04/20 20:13:06 INFO mapreduce.Job:  map 39% reduce 0%
+15/04/20 20:13:07 INFO mapreduce.Job:  map 40% reduce 0%
+15/04/20 20:13:09 INFO mapreduce.Job:  map 41% reduce 0%
+15/04/20 20:13:10 INFO mapreduce.Job:  map 42% reduce 0%
+15/04/20 20:13:12 INFO mapreduce.Job:  map 43% reduce 0%
+15/04/20 20:13:13 INFO mapreduce.Job:  map 44% reduce 0%
+15/04/20 20:13:14 INFO mapreduce.Job:  map 46% reduce 0%
+15/04/20 20:13:15 INFO mapreduce.Job:  map 48% reduce 0%
+15/04/20 20:13:16 INFO mapreduce.Job:  map 49% reduce 1%
+15/04/20 20:13:17 INFO mapreduce.Job:  map 50% reduce 2%
+15/04/20 20:13:18 INFO mapreduce.Job:  map 51% reduce 2%
+15/04/20 20:13:19 INFO mapreduce.Job:  map 52% reduce 3%
+15/04/20 20:13:20 INFO mapreduce.Job:  map 53% reduce 4%
+15/04/20 20:13:21 INFO mapreduce.Job:  map 54% reduce 5%
+15/04/20 20:13:22 INFO mapreduce.Job:  map 56% reduce 6%
+15/04/20 20:13:23 INFO mapreduce.Job:  map 57% reduce 7%
+15/04/20 20:13:24 INFO mapreduce.Job:  map 58% reduce 9%
+15/04/20 20:13:25 INFO mapreduce.Job:  map 59% reduce 10%
+15/04/20 20:13:26 INFO mapreduce.Job:  map 60% reduce 11%
+15/04/20 20:13:27 INFO mapreduce.Job:  map 61% reduce 13%
+15/04/20 20:13:28 INFO mapreduce.Job:  map 62% reduce 13%
+15/04/20 20:13:29 INFO mapreduce.Job:  map 63% reduce 14%
+15/04/20 20:13:30 INFO mapreduce.Job:  map 64% reduce 15%
+15/04/20 20:13:31 INFO mapreduce.Job:  map 64% reduce 16%
+15/04/20 20:13:32 INFO mapreduce.Job:  map 65% reduce 17%
+15/04/20 20:13:33 INFO mapreduce.Job:  map 66% reduce 17%
+15/04/20 20:13:34 INFO mapreduce.Job:  map 67% reduce 17%
+15/04/20 20:13:36 INFO mapreduce.Job:  map 68% reduce 17%
+15/04/20 20:13:37 INFO mapreduce.Job:  map 69% reduce 17%
+15/04/20 20:13:38 INFO mapreduce.Job:  map 70% reduce 17%
+15/04/20 20:13:39 INFO mapreduce.Job:  map 70% reduce 18%
+15/04/20 20:13:41 INFO mapreduce.Job:  map 71% reduce 18%
+15/04/20 20:13:44 INFO mapreduce.Job:  map 72% reduce 18%
+15/04/20 20:13:52 INFO mapreduce.Job:  map 73% reduce 18%
+15/04/20 20:13:56 INFO mapreduce.Job:  map 73% reduce 19%
+15/04/20 20:13:58 INFO mapreduce.Job:  map 74% reduce 19%
+15/04/20 20:14:00 INFO mapreduce.Job:  map 75% reduce 19%
+15/04/20 20:14:01 INFO mapreduce.Job:  map 75% reduce 20%
+15/04/20 20:14:02 INFO mapreduce.Job:  map 76% reduce 20%
+15/04/20 20:14:05 INFO mapreduce.Job:  map 77% reduce 21%
+15/04/20 20:14:06 INFO mapreduce.Job:  map 78% reduce 21%
+15/04/20 20:14:08 INFO mapreduce.Job:  map 79% reduce 22%
+15/04/20 20:14:09 INFO mapreduce.Job:  map 80% reduce 22%
+15/04/20 20:14:11 INFO mapreduce.Job:  map 81% reduce 22%
+15/04/20 20:14:12 INFO mapreduce.Job:  map 82% reduce 23%
+15/04/20 20:14:13 INFO mapreduce.Job:  map 83% reduce 23%
+15/04/20 20:14:15 INFO mapreduce.Job:  map 84% reduce 24%
+15/04/20 20:14:16 INFO mapreduce.Job:  map 85% reduce 24%
+15/04/20 20:14:17 INFO mapreduce.Job:  map 86% reduce 24%
+15/04/20 20:14:18 INFO mapreduce.Job:  map 87% reduce 25%
+15/04/20 20:14:19 INFO mapreduce.Job:  map 88% reduce 25%
+15/04/20 20:14:20 INFO mapreduce.Job:  map 89% reduce 25%
+15/04/20 20:14:21 INFO mapreduce.Job:  map 90% reduce 25%
+15/04/20 20:14:22 INFO mapreduce.Job:  map 90% reduce 26%
+15/04/20 20:14:23 INFO mapreduce.Job:  map 91% reduce 26%
+15/04/20 20:14:24 INFO mapreduce.Job:  map 92% reduce 26%
+15/04/20 20:14:26 INFO mapreduce.Job:  map 93% reduce 26%
+15/04/20 20:14:28 INFO mapreduce.Job:  map 93% reduce 27%
+15/04/20 20:14:29 INFO mapreduce.Job:  map 94% reduce 27%
+15/04/20 20:14:43 INFO mapreduce.Job:  map 94% reduce 28%
+15/04/20 20:14:44 INFO mapreduce.Job:  map 95% reduce 28%
+15/04/20 20:14:52 INFO mapreduce.Job:  map 96% reduce 29%
+15/04/20 20:14:58 INFO mapreduce.Job:  map 97% reduce 30%
+15/04/20 20:15:04 INFO mapreduce.Job:  map 98% reduce 30%
+15/04/20 20:15:05 INFO mapreduce.Job:  map 98% reduce 31%
+15/04/20 20:15:11 INFO mapreduce.Job:  map 99% reduce 32%
+15/04/20 20:15:20 INFO mapreduce.Job:  map 99% reduce 33%
+15/04/20 20:15:22 INFO mapreduce.Job:  map 100% reduce 33%
+15/04/20 20:15:31 INFO mapreduce.Job:  map 100% reduce 38%
+15/04/20 20:15:32 INFO mapreduce.Job:  map 100% reduce 78%
+15/04/20 20:15:33 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:15:36 INFO mapreduce.Job: Job job_1422482982071_5883 completed successfully
+15/04/20 20:15:36 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=570853607
+		FILE: Number of bytes written=1298281782
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=111987284919
+		HDFS: Number of bytes written=12144591
+		HDFS: Number of read operations=4656
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=434
+	Job Counters 
+		Launched map tasks=1335
+		Launched reduce tasks=217
+		Data-local map tasks=1027
+		Rack-local map tasks=308
+		Total time spent by all maps in occupied slots (ms)=149970178
+		Total time spent by all reduces in occupied slots (ms)=59617466
+		Total time spent by all map tasks (ms)=74985089
+		Total time spent by all reduce tasks (ms)=29808733
+		Total vcore-seconds taken by all map tasks=74985089
+		Total vcore-seconds taken by all reduce tasks=29808733
+		Total megabyte-seconds taken by all map tasks=607079280544
+		Total megabyte-seconds taken by all reduce tasks=357704796000
+	Map-Reduce Framework
+		Map input records=2559610995
+		Map output records=20476887960
+		Map output bytes=152937593154
+		Map output materialized bytes=572590475
+		Input split bytes=210930
+		Combine input records=20476887960
+		Combine output records=36438829
+		Reduce input groups=823832
+		Reduce shuffle bytes=572590475
+		Reduce input records=36438829
+		Reduce output records=823832
+		Spilled Records=72877658
+		Shuffled Maps =289695
+		Failed Shuffles=0
+		Merged Map outputs=289695
+		GC time elapsed (ms)=664120
+		CPU time spent (ms)=52726840
+		Physical memory (bytes) snapshot=2642193453056
+		Virtual memory (bytes) snapshot=15156789387264
+		Total committed heap usage (bytes)=4154275368960
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=111987073989
+	File Output Format Counters 
+		Bytes Written=12144591
+15/04/20 20:15:36 INFO streaming.StreamJob: Output directory: ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-of
+
+real	3m43.340s
+user	0m14.743s
+sys	0m0.831s
+3650 593
+py googlebooks-eng-all-5gram-20120701-th mapper.py reducer.py
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=py-3650-593-googlebooks-eng-all-5gram-20120701-th -Dmapreduce.job.maps=3650 -Dmapreduce.job.reduces=593 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.py,./reducer.py -combiner ./reducer.py -mapper ./mapper.py -reducer ./reducer.py -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-th -output ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-th
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob1605333729153102930.jar tmpDir=null
+15/04/20 20:15:42 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:15:42 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:15:43 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:15:43 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:15:44 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.203:50010
+15/04/20 20:15:44 INFO mapreduce.JobSubmitter: number of splits:3650
+15/04/20 20:15:44 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5885
+15/04/20 20:15:45 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5885
+15/04/20 20:15:45 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5885/
+15/04/20 20:15:45 INFO mapreduce.Job: Running job: job_1422482982071_5885
+15/04/20 20:15:50 INFO mapreduce.Job: Job job_1422482982071_5885 running in uber mode : false
+15/04/20 20:15:50 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:16:03 INFO mapreduce.Job:  map 1% reduce 0%
+15/04/20 20:16:05 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 20:16:07 INFO mapreduce.Job:  map 3% reduce 0%
+15/04/20 20:16:08 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:16:10 INFO mapreduce.Job:  map 5% reduce 0%
+15/04/20 20:16:11 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:16:12 INFO mapreduce.Job:  map 7% reduce 0%
+15/04/20 20:16:14 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:16:15 INFO mapreduce.Job:  map 9% reduce 0%
+15/04/20 20:16:18 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:16:44 INFO mapreduce.Job:  map 11% reduce 0%
+15/04/20 20:16:54 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:16:58 INFO mapreduce.Job:  map 13% reduce 0%
+15/04/20 20:17:01 INFO mapreduce.Job:  map 14% reduce 0%
+15/04/20 20:17:03 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 20:17:05 INFO mapreduce.Job:  map 16% reduce 0%
+15/04/20 20:17:07 INFO mapreduce.Job:  map 17% reduce 0%
+15/04/20 20:17:09 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 20:17:11 INFO mapreduce.Job:  map 19% reduce 0%
+15/04/20 20:17:13 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 20:17:15 INFO mapreduce.Job:  map 21% reduce 0%
+15/04/20 20:17:18 INFO mapreduce.Job:  map 22% reduce 0%
+15/04/20 20:17:21 INFO mapreduce.Job:  map 23% reduce 0%
+15/04/20 20:17:24 INFO mapreduce.Job:  map 24% reduce 0%
+15/04/20 20:17:27 INFO mapreduce.Job:  map 24% reduce 1%
+15/04/20 20:17:35 INFO mapreduce.Job:  map 25% reduce 1%
+15/04/20 20:17:54 INFO mapreduce.Job:  map 26% reduce 1%
+15/04/20 20:18:00 INFO mapreduce.Job:  map 27% reduce 1%
+15/04/20 20:18:05 INFO mapreduce.Job:  map 28% reduce 1%
+15/04/20 20:18:09 INFO mapreduce.Job:  map 29% reduce 1%
+15/04/20 20:18:12 INFO mapreduce.Job:  map 30% reduce 1%
+15/04/20 20:18:14 INFO mapreduce.Job:  map 31% reduce 1%
+15/04/20 20:18:17 INFO mapreduce.Job:  map 32% reduce 1%
+15/04/20 20:18:21 INFO mapreduce.Job:  map 33% reduce 1%
+15/04/20 20:18:23 INFO mapreduce.Job:  map 33% reduce 2%
+15/04/20 20:18:24 INFO mapreduce.Job:  map 34% reduce 2%
+15/04/20 20:18:28 INFO mapreduce.Job:  map 35% reduce 2%
+15/04/20 20:18:33 INFO mapreduce.Job:  map 36% reduce 2%
+15/04/20 20:18:41 INFO mapreduce.Job:  map 37% reduce 2%
+15/04/20 20:18:55 INFO mapreduce.Job:  map 38% reduce 2%
+15/04/20 20:19:02 INFO mapreduce.Job:  map 39% reduce 2%
+15/04/20 20:19:07 INFO mapreduce.Job:  map 40% reduce 2%
+15/04/20 20:19:13 INFO mapreduce.Job:  map 41% reduce 3%
+15/04/20 20:19:17 INFO mapreduce.Job:  map 42% reduce 3%
+15/04/20 20:19:22 INFO mapreduce.Job:  map 43% reduce 3%
+15/04/20 20:19:26 INFO mapreduce.Job:  map 44% reduce 3%
+15/04/20 20:19:31 INFO mapreduce.Job:  map 45% reduce 3%
+15/04/20 20:19:37 INFO mapreduce.Job:  map 46% reduce 3%
+15/04/20 20:19:43 INFO mapreduce.Job:  map 46% reduce 4%
+15/04/20 20:19:45 INFO mapreduce.Job:  map 47% reduce 4%
+15/04/20 20:19:52 INFO mapreduce.Job:  map 48% reduce 4%
+15/04/20 20:20:01 INFO mapreduce.Job:  map 49% reduce 4%
+15/04/20 20:20:06 INFO mapreduce.Job:  map 50% reduce 4%
+15/04/20 20:20:13 INFO mapreduce.Job:  map 51% reduce 4%
+15/04/20 20:20:18 INFO mapreduce.Job:  map 52% reduce 5%
+15/04/20 20:20:24 INFO mapreduce.Job:  map 53% reduce 5%
+15/04/20 20:20:31 INFO mapreduce.Job:  map 54% reduce 5%
+15/04/20 20:20:39 INFO mapreduce.Job:  map 55% reduce 5%
+15/04/20 20:20:47 INFO mapreduce.Job:  map 56% reduce 5%
+15/04/20 20:20:50 INFO mapreduce.Job:  map 56% reduce 6%
+15/04/20 20:20:54 INFO mapreduce.Job:  map 57% reduce 6%
+15/04/20 20:21:02 INFO mapreduce.Job:  map 58% reduce 6%
+15/04/20 20:21:08 INFO mapreduce.Job:  map 59% reduce 6%
+15/04/20 20:21:15 INFO mapreduce.Job:  map 60% reduce 6%
+15/04/20 20:21:20 INFO mapreduce.Job:  map 61% reduce 6%
+15/04/20 20:21:28 INFO mapreduce.Job:  map 62% reduce 6%
+15/04/20 20:21:35 INFO mapreduce.Job:  map 63% reduce 6%
+15/04/20 20:21:42 INFO mapreduce.Job:  map 64% reduce 6%
+15/04/20 20:21:49 INFO mapreduce.Job:  map 64% reduce 7%
+15/04/20 20:21:50 INFO mapreduce.Job:  map 65% reduce 7%
+15/04/20 20:21:57 INFO mapreduce.Job:  map 66% reduce 7%
+15/04/20 20:22:04 INFO mapreduce.Job:  map 67% reduce 7%
+15/04/20 20:22:10 INFO mapreduce.Job:  map 68% reduce 7%
+15/04/20 20:22:17 INFO mapreduce.Job:  map 69% reduce 7%
+15/04/20 20:22:23 INFO mapreduce.Job:  map 70% reduce 7%
+15/04/20 20:22:31 INFO mapreduce.Job:  map 71% reduce 7%
+15/04/20 20:22:38 INFO mapreduce.Job:  map 72% reduce 7%
+15/04/20 20:22:46 INFO mapreduce.Job:  map 73% reduce 7%
+15/04/20 20:22:48 INFO mapreduce.Job:  map 73% reduce 8%
+15/04/20 20:22:53 INFO mapreduce.Job:  map 74% reduce 8%
+15/04/20 20:23:00 INFO mapreduce.Job:  map 75% reduce 8%
+15/04/20 20:23:07 INFO mapreduce.Job:  map 76% reduce 8%
+15/04/20 20:23:14 INFO mapreduce.Job:  map 77% reduce 8%
+15/04/20 20:23:21 INFO mapreduce.Job:  map 78% reduce 8%
+15/04/20 20:23:27 INFO mapreduce.Job:  map 79% reduce 8%
+15/04/20 20:23:34 INFO mapreduce.Job:  map 80% reduce 8%
+15/04/20 20:23:41 INFO mapreduce.Job:  map 81% reduce 8%
+15/04/20 20:23:47 INFO mapreduce.Job:  map 82% reduce 8%
+15/04/20 20:23:50 INFO mapreduce.Job:  map 82% reduce 9%
+15/04/20 20:23:56 INFO mapreduce.Job:  map 83% reduce 9%
+15/04/20 20:24:02 INFO mapreduce.Job:  map 84% reduce 9%
+15/04/20 20:24:10 INFO mapreduce.Job:  map 85% reduce 9%
+15/04/20 20:24:16 INFO mapreduce.Job:  map 86% reduce 9%
+15/04/20 20:24:24 INFO mapreduce.Job:  map 87% reduce 9%
+15/04/20 20:24:31 INFO mapreduce.Job:  map 88% reduce 9%
+15/04/20 20:24:38 INFO mapreduce.Job:  map 89% reduce 9%
+15/04/20 20:24:45 INFO mapreduce.Job:  map 90% reduce 9%
+15/04/20 20:24:52 INFO mapreduce.Job:  map 91% reduce 9%
+15/04/20 20:24:53 INFO mapreduce.Job:  map 91% reduce 10%
+15/04/20 20:24:59 INFO mapreduce.Job:  map 92% reduce 10%
+15/04/20 20:25:06 INFO mapreduce.Job:  map 93% reduce 10%
+15/04/20 20:25:13 INFO mapreduce.Job:  map 94% reduce 10%
+15/04/20 20:25:20 INFO mapreduce.Job:  map 95% reduce 10%
+15/04/20 20:25:26 INFO mapreduce.Job:  map 96% reduce 10%
+15/04/20 20:25:34 INFO mapreduce.Job:  map 97% reduce 10%
+15/04/20 20:25:40 INFO mapreduce.Job:  map 98% reduce 10%
+15/04/20 20:25:44 INFO mapreduce.Job:  map 98% reduce 11%
+15/04/20 20:25:50 INFO mapreduce.Job:  map 98% reduce 12%
+15/04/20 20:25:54 INFO mapreduce.Job:  map 99% reduce 12%
+15/04/20 20:25:55 INFO mapreduce.Job:  map 99% reduce 13%
+15/04/20 20:25:59 INFO mapreduce.Job:  map 99% reduce 14%
+15/04/20 20:26:04 INFO mapreduce.Job:  map 99% reduce 15%
+15/04/20 20:26:08 INFO mapreduce.Job:  map 99% reduce 16%
+15/04/20 20:26:14 INFO mapreduce.Job:  map 99% reduce 17%
+15/04/20 20:26:15 INFO mapreduce.Job:  map 100% reduce 17%
+15/04/20 20:26:18 INFO mapreduce.Job:  map 100% reduce 18%
+15/04/20 20:26:23 INFO mapreduce.Job:  map 100% reduce 19%
+15/04/20 20:26:28 INFO mapreduce.Job:  map 100% reduce 20%
+15/04/20 20:26:39 INFO mapreduce.Job:  map 100% reduce 21%
+15/04/20 20:26:47 INFO mapreduce.Job:  map 100% reduce 34%
+15/04/20 20:26:48 INFO mapreduce.Job:  map 100% reduce 51%
+15/04/20 20:26:49 INFO mapreduce.Job:  map 100% reduce 62%
+15/04/20 20:26:52 INFO mapreduce.Job:  map 100% reduce 63%
+15/04/20 20:26:53 INFO mapreduce.Job:  map 100% reduce 70%
+15/04/20 20:26:54 INFO mapreduce.Job:  map 100% reduce 95%
+15/04/20 20:26:55 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:27:01 INFO mapreduce.Job: Job job_1422482982071_5885 completed successfully
+15/04/20 20:27:01 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=1309299737
+		FILE: Number of bytes written=3087833176
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=306151972264
+		HDFS: Number of bytes written=14645142
+		HDFS: Number of read operations=12729
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=1186
+	Job Counters 
+		Launched map tasks=3650
+		Launched reduce tasks=593
+		Data-local map tasks=2818
+		Rack-local map tasks=832
+		Total time spent by all maps in occupied slots (ms)=422039220
+		Total time spent by all reduces in occupied slots (ms)=212919370
+		Total time spent by all map tasks (ms)=211019610
+		Total time spent by all reduce tasks (ms)=106459685
+		Total vcore-seconds taken by all map tasks=211019610
+		Total vcore-seconds taken by all reduce tasks=106459685
+		Total megabyte-seconds taken by all map tasks=1708414762560
+		Total megabyte-seconds taken by all reduce tasks=1277516220000
+	Map-Reduce Framework
+		Map input records=6699266723
+		Map output records=53594133784
+		Map output bytes=413330882214
+		Map output materialized bytes=1322282879
+		Input split bytes=576700
+		Combine input records=53594133784
+		Combine output records=83523705
+		Reduce input groups=976835
+		Reduce shuffle bytes=1322282879
+		Reduce input records=83523705
+		Reduce output records=976835
+		Spilled Records=167047410
+		Shuffled Maps =2164450
+		Failed Shuffles=0
+		Merged Map outputs=2164450
+		GC time elapsed (ms)=2640847
+		CPU time spent (ms)=140080050
+		Physical memory (bytes) snapshot=7228128006144
+		Virtual memory (bytes) snapshot=41447918268416
+		Total committed heap usage (bytes)=11357456384000
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=306151395564
+	File Output Format Counters 
+		Bytes Written=14645142
+15/04/20 20:27:01 INFO streaming.StreamJob: Output directory: ./out/stream-py-0-googlebooks-eng-all-5gram-20120701-th
+
+real	11m24.932s
+user	0m18.107s
+sys	0m1.272s
+15/04/20 20:27:03 INFO fs.TrashPolicyDefault: Namenode trash configuration: Deletion interval = 0 minutes, Emptier interval = 0 minutes.
+Deleted out/stream-r-0-googlebooks-eng-all-5gram-20120701-on
+324 53
+r googlebooks-eng-all-5gram-20120701-on mapper.R reducer.R
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=r-324-53-googlebooks-eng-all-5gram-20120701-on -Dmapreduce.job.maps=324 -Dmapreduce.job.reduces=53 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.R,./reducer.R -combiner ./reducer.R -mapper ./mapper.R -reducer ./reducer.R -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-on -output ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-on
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob5361572173384066997.jar tmpDir=null
+15/04/20 20:27:07 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:27:07 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:27:08 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.203:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:27:08 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:27:08 INFO mapreduce.JobSubmitter: number of splits:324
+15/04/20 20:27:09 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5893
+15/04/20 20:27:09 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5893
+15/04/20 20:27:09 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5893/
+15/04/20 20:27:09 INFO mapreduce.Job: Running job: job_1422482982071_5893
+15/04/20 20:27:13 INFO mapreduce.Job: Job job_1422482982071_5893 running in uber mode : false
+15/04/20 20:27:13 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:27:24 INFO mapreduce.Job:  map 1% reduce 0%
+15/04/20 20:27:26 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 20:27:28 INFO mapreduce.Job:  map 3% reduce 0%
+15/04/20 20:27:30 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:27:33 INFO mapreduce.Job:  map 5% reduce 0%
+15/04/20 20:27:35 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:27:38 INFO mapreduce.Job:  map 7% reduce 0%
+15/04/20 20:27:40 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:27:43 INFO mapreduce.Job:  map 9% reduce 0%
+15/04/20 20:27:46 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:27:48 INFO mapreduce.Job:  map 11% reduce 0%
+15/04/20 20:27:51 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:27:53 INFO mapreduce.Job:  map 13% reduce 0%
+15/04/20 20:27:56 INFO mapreduce.Job:  map 14% reduce 0%
+15/04/20 20:27:59 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 20:28:02 INFO mapreduce.Job:  map 16% reduce 0%
+15/04/20 20:28:04 INFO mapreduce.Job:  map 17% reduce 0%
+15/04/20 20:28:07 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 20:28:10 INFO mapreduce.Job:  map 19% reduce 0%
+15/04/20 20:28:12 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 20:28:15 INFO mapreduce.Job:  map 21% reduce 0%
+15/04/20 20:28:17 INFO mapreduce.Job:  map 22% reduce 0%
+15/04/20 20:28:20 INFO mapreduce.Job:  map 23% reduce 0%
+15/04/20 20:28:22 INFO mapreduce.Job:  map 24% reduce 0%
+15/04/20 20:28:25 INFO mapreduce.Job:  map 25% reduce 0%
+15/04/20 20:28:28 INFO mapreduce.Job:  map 26% reduce 0%
+15/04/20 20:28:30 INFO mapreduce.Job:  map 27% reduce 0%
+15/04/20 20:28:32 INFO mapreduce.Job:  map 28% reduce 0%
+15/04/20 20:28:35 INFO mapreduce.Job:  map 29% reduce 0%
+15/04/20 20:28:37 INFO mapreduce.Job:  map 30% reduce 0%
+15/04/20 20:28:40 INFO mapreduce.Job:  map 31% reduce 0%
+15/04/20 20:28:42 INFO mapreduce.Job:  map 32% reduce 0%
+15/04/20 20:28:45 INFO mapreduce.Job:  map 33% reduce 0%
+15/04/20 20:28:47 INFO mapreduce.Job:  map 34% reduce 0%
+15/04/20 20:28:50 INFO mapreduce.Job:  map 35% reduce 0%
+15/04/20 20:28:52 INFO mapreduce.Job:  map 36% reduce 0%
+15/04/20 20:28:55 INFO mapreduce.Job:  map 37% reduce 0%
+15/04/20 20:28:58 INFO mapreduce.Job:  map 38% reduce 0%
+15/04/20 20:29:00 INFO mapreduce.Job:  map 39% reduce 0%
+15/04/20 20:29:03 INFO mapreduce.Job:  map 40% reduce 0%
+15/04/20 20:29:05 INFO mapreduce.Job:  map 41% reduce 0%
+15/04/20 20:29:08 INFO mapreduce.Job:  map 42% reduce 0%
+15/04/20 20:29:10 INFO mapreduce.Job:  map 43% reduce 0%
+15/04/20 20:29:13 INFO mapreduce.Job:  map 44% reduce 0%
+15/04/20 20:29:15 INFO mapreduce.Job:  map 45% reduce 0%
+15/04/20 20:29:18 INFO mapreduce.Job:  map 46% reduce 0%
+15/04/20 20:29:20 INFO mapreduce.Job:  map 47% reduce 0%
+15/04/20 20:29:23 INFO mapreduce.Job:  map 48% reduce 0%
+15/04/20 20:29:25 INFO mapreduce.Job:  map 49% reduce 0%
+15/04/20 20:29:28 INFO mapreduce.Job:  map 50% reduce 0%
+15/04/20 20:29:31 INFO mapreduce.Job:  map 51% reduce 0%
+15/04/20 20:29:33 INFO mapreduce.Job:  map 52% reduce 0%
+15/04/20 20:29:36 INFO mapreduce.Job:  map 53% reduce 0%
+15/04/20 20:29:38 INFO mapreduce.Job:  map 54% reduce 0%
+15/04/20 20:29:40 INFO mapreduce.Job:  map 55% reduce 0%
+15/04/20 20:29:43 INFO mapreduce.Job:  map 56% reduce 0%
+15/04/20 20:29:45 INFO mapreduce.Job:  map 57% reduce 0%
+15/04/20 20:29:48 INFO mapreduce.Job:  map 58% reduce 0%
+15/04/20 20:29:50 INFO mapreduce.Job:  map 59% reduce 0%
+15/04/20 20:29:53 INFO mapreduce.Job:  map 60% reduce 0%
+15/04/20 20:29:55 INFO mapreduce.Job:  map 61% reduce 0%
+15/04/20 20:29:58 INFO mapreduce.Job:  map 62% reduce 0%
+15/04/20 20:30:01 INFO mapreduce.Job:  map 63% reduce 0%
+15/04/20 20:30:03 INFO mapreduce.Job:  map 64% reduce 0%
+15/04/20 20:30:06 INFO mapreduce.Job:  map 65% reduce 0%
+15/04/20 20:30:09 INFO mapreduce.Job:  map 66% reduce 0%
+15/04/20 20:30:19 INFO mapreduce.Job:  map 67% reduce 0%
+15/04/20 20:31:52 INFO mapreduce.Job:  map 68% reduce 0%
+15/04/20 20:31:54 INFO mapreduce.Job:  map 69% reduce 0%
+15/04/20 20:31:55 INFO mapreduce.Job:  map 70% reduce 0%
+15/04/20 20:31:56 INFO mapreduce.Job:  map 71% reduce 0%
+15/04/20 20:31:57 INFO mapreduce.Job:  map 72% reduce 0%
+15/04/20 20:31:58 INFO mapreduce.Job:  map 74% reduce 0%
+15/04/20 20:31:59 INFO mapreduce.Job:  map 77% reduce 0%
+15/04/20 20:32:00 INFO mapreduce.Job:  map 79% reduce 0%
+15/04/20 20:32:01 INFO mapreduce.Job:  map 82% reduce 0%
+15/04/20 20:32:02 INFO mapreduce.Job:  map 84% reduce 0%
+15/04/20 20:32:03 INFO mapreduce.Job:  map 86% reduce 0%
+15/04/20 20:32:04 INFO mapreduce.Job:  map 88% reduce 19%
+15/04/20 20:32:05 INFO mapreduce.Job:  map 90% reduce 19%
+15/04/20 20:32:06 INFO mapreduce.Job:  map 91% reduce 19%
+15/04/20 20:32:07 INFO mapreduce.Job:  map 92% reduce 24%
+15/04/20 20:32:08 INFO mapreduce.Job:  map 93% reduce 24%
+15/04/20 20:32:09 INFO mapreduce.Job:  map 94% reduce 24%
+15/04/20 20:32:10 INFO mapreduce.Job:  map 95% reduce 27%
+15/04/20 20:32:11 INFO mapreduce.Job:  map 96% reduce 27%
+15/04/20 20:32:12 INFO mapreduce.Job:  map 97% reduce 27%
+15/04/20 20:32:13 INFO mapreduce.Job:  map 97% reduce 30%
+15/04/20 20:32:14 INFO mapreduce.Job:  map 98% reduce 30%
+15/04/20 20:32:16 INFO mapreduce.Job:  map 98% reduce 31%
+15/04/20 20:32:17 INFO mapreduce.Job:  map 99% reduce 31%
+15/04/20 20:32:19 INFO mapreduce.Job:  map 99% reduce 32%
+15/04/20 20:32:22 INFO mapreduce.Job:  map 99% reduce 33%
+15/04/20 20:32:26 INFO mapreduce.Job:  map 100% reduce 33%
+15/04/20 20:32:31 INFO mapreduce.Job:  map 100% reduce 78%
+15/04/20 20:32:33 INFO mapreduce.Job:  map 100% reduce 98%
+15/04/20 20:32:34 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:32:35 INFO mapreduce.Job: Job job_1422482982071_5893 completed successfully
+15/04/20 20:32:35 INFO mapreduce.Job: Counters: 50
+	File System Counters
+		FILE: Number of bytes read=122225738
+		FILE: Number of bytes written=280882800
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=27107711807
+		HDFS: Number of bytes written=5048114
+		HDFS: Number of read operations=1131
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=106
+	Job Counters 
+		Launched map tasks=324
+		Launched reduce tasks=53
+		Data-local map tasks=236
+		Rack-local map tasks=88
+		Total time spent by all maps in occupied slots (ms)=184763762
+		Total time spent by all reduces in occupied slots (ms)=3921960
+		Total time spent by all map tasks (ms)=92381881
+		Total time spent by all reduce tasks (ms)=1960980
+		Total vcore-seconds taken by all map tasks=92381881
+		Total vcore-seconds taken by all reduce tasks=1960980
+		Total megabyte-seconds taken by all map tasks=747923708576
+		Total megabyte-seconds taken by all reduce tasks=23531760000
+	Map-Reduce Framework
+		Map input records=632973453
+		Map output records=3164867265
+		Map output bytes=33436906499
+		Map output materialized bytes=122328452
+		Input split bytes=51192
+		Combine input records=3164867265
+		Combine output records=7217061
+		Reduce input groups=308269
+		Reduce shuffle bytes=122328452
+		Reduce input records=7217061
+		Reduce output records=308269
+		Spilled Records=14434122
+		Shuffled Maps =17172
+		Failed Shuffles=0
+		Merged Map outputs=17172
+		GC time elapsed (ms)=178039
+		CPU time spent (ms)=99421210
+		Physical memory (bytes) snapshot=641725403136
+		Virtual memory (bytes) snapshot=3682077396992
+		Total committed heap usage (bytes)=1008953315328
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=27107660615
+	File Output Format Counters 
+		Bytes Written=5048114
+15/04/20 20:32:35 INFO streaming.StreamJob: Output directory: ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-on
+
+real	5m34.375s
+user	0m13.456s
+sys	0m0.922s
+585 95
+r googlebooks-eng-all-5gram-20120701-be mapper.R reducer.R
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=r-585-95-googlebooks-eng-all-5gram-20120701-be -Dmapreduce.job.maps=585 -Dmapreduce.job.reduces=95 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.R,./reducer.R -combiner ./reducer.R -mapper ./mapper.R -reducer ./reducer.R -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-be -output ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-be
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob5145680404007354787.jar tmpDir=null
+15/04/20 20:32:41 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:32:41 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:32:42 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.203:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:32:42 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:32:43 INFO mapreduce.JobSubmitter: number of splits:585
+15/04/20 20:32:43 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5897
+15/04/20 20:32:43 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5897
+15/04/20 20:32:43 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5897/
+15/04/20 20:32:43 INFO mapreduce.Job: Running job: job_1422482982071_5897
+15/04/20 20:32:49 INFO mapreduce.Job: Job job_1422482982071_5897 running in uber mode : false
+15/04/20 20:32:49 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:33:05 INFO mapreduce.Job:  map 1% reduce 0%
+15/04/20 20:33:11 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 20:33:17 INFO mapreduce.Job:  map 3% reduce 0%
+15/04/20 20:33:23 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:33:30 INFO mapreduce.Job:  map 5% reduce 0%
+15/04/20 20:33:36 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:33:42 INFO mapreduce.Job:  map 7% reduce 0%
+15/04/20 20:33:48 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:33:54 INFO mapreduce.Job:  map 9% reduce 0%
+15/04/20 20:34:00 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:34:06 INFO mapreduce.Job:  map 11% reduce 0%
+15/04/20 20:34:12 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:34:17 INFO mapreduce.Job:  map 13% reduce 0%
+15/04/20 20:34:23 INFO mapreduce.Job:  map 14% reduce 0%
+15/04/20 20:34:28 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 20:34:33 INFO mapreduce.Job:  map 16% reduce 0%
+15/04/20 20:34:36 INFO mapreduce.Job:  map 17% reduce 0%
+15/04/20 20:34:40 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 20:34:43 INFO mapreduce.Job:  map 19% reduce 0%
+15/04/20 20:34:47 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 20:34:50 INFO mapreduce.Job:  map 21% reduce 0%
+15/04/20 20:34:54 INFO mapreduce.Job:  map 22% reduce 0%
+15/04/20 20:34:57 INFO mapreduce.Job:  map 23% reduce 0%
+15/04/20 20:35:00 INFO mapreduce.Job:  map 24% reduce 0%
+15/04/20 20:35:05 INFO mapreduce.Job:  map 25% reduce 0%
+15/04/20 20:35:08 INFO mapreduce.Job:  map 26% reduce 0%
+15/04/20 20:35:11 INFO mapreduce.Job:  map 27% reduce 0%
+15/04/20 20:35:15 INFO mapreduce.Job:  map 28% reduce 0%
+15/04/20 20:35:18 INFO mapreduce.Job:  map 29% reduce 0%
+15/04/20 20:35:21 INFO mapreduce.Job:  map 30% reduce 0%
+15/04/20 20:35:24 INFO mapreduce.Job:  map 31% reduce 0%
+15/04/20 20:35:28 INFO mapreduce.Job:  map 32% reduce 0%
+15/04/20 20:35:31 INFO mapreduce.Job:  map 33% reduce 0%
+15/04/20 20:35:34 INFO mapreduce.Job:  map 34% reduce 0%
+15/04/20 20:35:37 INFO mapreduce.Job:  map 35% reduce 0%
+15/04/20 20:35:41 INFO mapreduce.Job:  map 36% reduce 0%
+15/04/20 20:35:44 INFO mapreduce.Job:  map 37% reduce 0%
+15/04/20 20:35:47 INFO mapreduce.Job:  map 38% reduce 0%
+15/04/20 20:35:50 INFO mapreduce.Job:  map 39% reduce 0%
+15/04/20 20:35:54 INFO mapreduce.Job:  map 40% reduce 0%
+15/04/20 20:35:58 INFO mapreduce.Job:  map 41% reduce 0%
+15/04/20 20:36:02 INFO mapreduce.Job:  map 42% reduce 0%
+15/04/20 20:36:06 INFO mapreduce.Job:  map 43% reduce 0%
+15/04/20 20:36:09 INFO mapreduce.Job:  map 44% reduce 0%
+15/04/20 20:36:13 INFO mapreduce.Job:  map 45% reduce 0%
+15/04/20 20:36:18 INFO mapreduce.Job:  map 46% reduce 0%
+15/04/20 20:36:21 INFO mapreduce.Job:  map 47% reduce 0%
+15/04/20 20:36:27 INFO mapreduce.Job:  map 48% reduce 0%
+15/04/20 20:36:30 INFO mapreduce.Job:  map 49% reduce 0%
+15/04/20 20:36:36 INFO mapreduce.Job:  map 50% reduce 0%
+15/04/20 20:36:41 INFO mapreduce.Job:  map 51% reduce 0%
+15/04/20 20:36:45 INFO mapreduce.Job:  map 52% reduce 0%
+15/04/20 20:36:50 INFO mapreduce.Job:  map 53% reduce 0%
+15/04/20 20:36:56 INFO mapreduce.Job:  map 54% reduce 0%
+15/04/20 20:36:59 INFO mapreduce.Job:  map 55% reduce 0%
+15/04/20 20:37:05 INFO mapreduce.Job:  map 56% reduce 0%
+15/04/20 20:37:11 INFO mapreduce.Job:  map 57% reduce 0%
+15/04/20 20:37:14 INFO mapreduce.Job:  map 58% reduce 0%
+15/04/20 20:37:20 INFO mapreduce.Job:  map 59% reduce 0%
+15/04/20 20:37:26 INFO mapreduce.Job:  map 60% reduce 0%
+15/04/20 20:37:32 INFO mapreduce.Job:  map 61% reduce 0%
+15/04/20 20:37:37 INFO mapreduce.Job:  map 62% reduce 0%
+15/04/20 20:37:41 INFO mapreduce.Job:  map 63% reduce 0%
+15/04/20 20:37:43 INFO mapreduce.Job:  map 64% reduce 0%
+15/04/20 20:37:47 INFO mapreduce.Job:  map 65% reduce 0%
+15/04/20 20:37:49 INFO mapreduce.Job:  map 66% reduce 0%
+15/04/20 20:37:51 INFO mapreduce.Job:  map 67% reduce 0%
+15/04/20 20:37:54 INFO mapreduce.Job:  map 68% reduce 0%
+15/04/20 20:37:57 INFO mapreduce.Job:  map 69% reduce 0%
+15/04/20 20:37:59 INFO mapreduce.Job:  map 70% reduce 0%
+15/04/20 20:38:02 INFO mapreduce.Job:  map 70% reduce 1%
+15/04/20 20:38:03 INFO mapreduce.Job:  map 71% reduce 2%
+15/04/20 20:38:04 INFO mapreduce.Job:  map 71% reduce 3%
+15/04/20 20:38:05 INFO mapreduce.Job:  map 71% reduce 4%
+15/04/20 20:38:07 INFO mapreduce.Job:  map 72% reduce 5%
+15/04/20 20:38:09 INFO mapreduce.Job:  map 72% reduce 6%
+15/04/20 20:38:10 INFO mapreduce.Job:  map 73% reduce 6%
+15/04/20 20:38:12 INFO mapreduce.Job:  map 73% reduce 7%
+15/04/20 20:38:14 INFO mapreduce.Job:  map 74% reduce 8%
+15/04/20 20:38:17 INFO mapreduce.Job:  map 75% reduce 9%
+15/04/20 20:38:19 INFO mapreduce.Job:  map 75% reduce 10%
+15/04/20 20:38:21 INFO mapreduce.Job:  map 76% reduce 11%
+15/04/20 20:38:25 INFO mapreduce.Job:  map 77% reduce 12%
+15/04/20 20:38:29 INFO mapreduce.Job:  map 77% reduce 13%
+15/04/20 20:38:30 INFO mapreduce.Job:  map 78% reduce 13%
+15/04/20 20:38:36 INFO mapreduce.Job:  map 79% reduce 13%
+15/04/20 20:38:37 INFO mapreduce.Job:  map 79% reduce 14%
+15/04/20 20:38:50 INFO mapreduce.Job:  map 80% reduce 14%
+15/04/20 20:38:59 INFO mapreduce.Job:  map 80% reduce 15%
+15/04/20 20:39:02 INFO mapreduce.Job:  map 81% reduce 15%
+15/04/20 20:39:07 INFO mapreduce.Job:  map 82% reduce 16%
+15/04/20 20:39:13 INFO mapreduce.Job:  map 83% reduce 17%
+15/04/20 20:39:14 INFO mapreduce.Job:  map 84% reduce 17%
+15/04/20 20:39:16 INFO mapreduce.Job:  map 84% reduce 18%
+15/04/20 20:39:17 INFO mapreduce.Job:  map 85% reduce 18%
+15/04/20 20:39:18 INFO mapreduce.Job:  map 85% reduce 19%
+15/04/20 20:39:19 INFO mapreduce.Job:  map 86% reduce 19%
+15/04/20 20:39:21 INFO mapreduce.Job:  map 86% reduce 20%
+15/04/20 20:39:23 INFO mapreduce.Job:  map 87% reduce 20%
+15/04/20 20:39:25 INFO mapreduce.Job:  map 87% reduce 21%
+15/04/20 20:39:27 INFO mapreduce.Job:  map 88% reduce 21%
+15/04/20 20:39:29 INFO mapreduce.Job:  map 89% reduce 22%
+15/04/20 20:39:31 INFO mapreduce.Job:  map 89% reduce 23%
+15/04/20 20:39:32 INFO mapreduce.Job:  map 90% reduce 23%
+15/04/20 20:39:34 INFO mapreduce.Job:  map 90% reduce 24%
+15/04/20 20:39:35 INFO mapreduce.Job:  map 91% reduce 24%
+15/04/20 20:39:37 INFO mapreduce.Job:  map 91% reduce 25%
+15/04/20 20:39:39 INFO mapreduce.Job:  map 92% reduce 25%
+15/04/20 20:39:41 INFO mapreduce.Job:  map 92% reduce 26%
+15/04/20 20:39:42 INFO mapreduce.Job:  map 93% reduce 26%
+15/04/20 20:39:45 INFO mapreduce.Job:  map 93% reduce 27%
+15/04/20 20:39:47 INFO mapreduce.Job:  map 94% reduce 27%
+15/04/20 20:39:51 INFO mapreduce.Job:  map 94% reduce 28%
+15/04/20 20:40:02 INFO mapreduce.Job:  map 95% reduce 28%
+15/04/20 20:40:10 INFO mapreduce.Job:  map 95% reduce 29%
+15/04/20 20:40:13 INFO mapreduce.Job:  map 96% reduce 29%
+15/04/20 20:40:21 INFO mapreduce.Job:  map 97% reduce 30%
+15/04/20 20:40:27 INFO mapreduce.Job:  map 98% reduce 30%
+15/04/20 20:40:28 INFO mapreduce.Job:  map 98% reduce 31%
+15/04/20 20:40:40 INFO mapreduce.Job:  map 98% reduce 32%
+15/04/20 20:40:45 INFO mapreduce.Job:  map 99% reduce 32%
+15/04/20 20:41:55 INFO mapreduce.Job:  map 99% reduce 33%
+15/04/20 20:42:02 INFO mapreduce.Job:  map 100% reduce 33%
+15/04/20 20:42:13 INFO mapreduce.Job:  map 100% reduce 35%
+15/04/20 20:42:14 INFO mapreduce.Job:  map 100% reduce 47%
+15/04/20 20:42:15 INFO mapreduce.Job:  map 100% reduce 70%
+15/04/20 20:42:16 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:42:18 INFO mapreduce.Job: Job job_1422482982071_5897 completed successfully
+15/04/20 20:42:18 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=210737167
+		FILE: Number of bytes written=487924174
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=49059356057
+		HDFS: Number of bytes written=5809212
+		HDFS: Number of read operations=2040
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=190
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=587
+		Launched reduce tasks=95
+		Data-local map tasks=376
+		Rack-local map tasks=211
+		Total time spent by all maps in occupied slots (ms)=350598344
+		Total time spent by all reduces in occupied slots (ms)=48533040
+		Total time spent by all map tasks (ms)=175299172
+		Total time spent by all reduce tasks (ms)=24266520
+		Total vcore-seconds taken by all map tasks=175299172
+		Total vcore-seconds taken by all reduce tasks=24266520
+		Total megabyte-seconds taken by all map tasks=1419222096512
+		Total megabyte-seconds taken by all reduce tasks=291198240000
+	Map-Reduce Framework
+		Map input records=1080252503
+		Map output records=5401262515
+		Map output bytes=59860828573
+		Map output materialized bytes=211070047
+		Input split bytes=92430
+		Combine input records=5401262515
+		Combine output records=12332811
+		Reduce input groups=356997
+		Reduce shuffle bytes=211070047
+		Reduce input records=12332811
+		Reduce output records=356997
+		Spilled Records=24665622
+		Shuffled Maps =55575
+		Failed Shuffles=0
+		Merged Map outputs=55575
+		GC time elapsed (ms)=400873
+		CPU time spent (ms)=172639910
+		Physical memory (bytes) snapshot=1157477793792
+		Virtual memory (bytes) snapshot=6642298847232
+		Total committed heap usage (bytes)=1820257304576
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=49059263627
+	File Output Format Counters 
+		Bytes Written=5809212
+15/04/20 20:42:18 INFO streaming.StreamJob: Output directory: ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-be
+
+real	9m42.944s
+user	0m15.308s
+sys	0m1.053s
+995 162
+r googlebooks-eng-all-5gram-20120701-in mapper.R reducer.R
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=r-995-162-googlebooks-eng-all-5gram-20120701-in -Dmapreduce.job.maps=995 -Dmapreduce.job.reduces=162 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.R,./reducer.R -combiner ./reducer.R -mapper ./mapper.R -reducer ./reducer.R -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-in -output ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-in
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob6655644623791612473.jar tmpDir=null
+15/04/20 20:42:24 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:42:24 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:42:24 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:42:25 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:42:25 INFO mapreduce.JobSubmitter: number of splits:995
+15/04/20 20:42:26 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5903
+15/04/20 20:42:26 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5903
+15/04/20 20:42:26 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5903/
+15/04/20 20:42:26 INFO mapreduce.Job: Running job: job_1422482982071_5903
+15/04/20 20:42:30 INFO mapreduce.Job: Job job_1422482982071_5903 running in uber mode : false
+15/04/20 20:42:30 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:42:45 INFO mapreduce.Job:  map 1% reduce 0%
+15/04/20 20:42:51 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 20:42:56 INFO mapreduce.Job:  map 3% reduce 0%
+15/04/20 20:43:01 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:43:07 INFO mapreduce.Job:  map 5% reduce 0%
+15/04/20 20:43:12 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:43:17 INFO mapreduce.Job:  map 7% reduce 0%
+15/04/20 20:43:21 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:43:26 INFO mapreduce.Job:  map 9% reduce 0%
+15/04/20 20:43:31 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:43:35 INFO mapreduce.Job:  map 11% reduce 0%
+15/04/20 20:43:40 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:43:45 INFO mapreduce.Job:  map 13% reduce 0%
+15/04/20 20:43:49 INFO mapreduce.Job:  map 14% reduce 0%
+15/04/20 20:43:54 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 20:43:59 INFO mapreduce.Job:  map 16% reduce 0%
+15/04/20 20:44:03 INFO mapreduce.Job:  map 17% reduce 0%
+15/04/20 20:44:08 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 20:44:13 INFO mapreduce.Job:  map 19% reduce 0%
+15/04/20 20:44:17 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 20:44:22 INFO mapreduce.Job:  map 21% reduce 0%
+15/04/20 20:44:26 INFO mapreduce.Job:  map 22% reduce 0%
+15/04/20 20:44:31 INFO mapreduce.Job:  map 23% reduce 0%
+15/04/20 20:44:36 INFO mapreduce.Job:  map 24% reduce 0%
+15/04/20 20:44:40 INFO mapreduce.Job:  map 25% reduce 0%
+15/04/20 20:44:45 INFO mapreduce.Job:  map 26% reduce 0%
+15/04/20 20:44:50 INFO mapreduce.Job:  map 27% reduce 0%
+15/04/20 20:44:54 INFO mapreduce.Job:  map 28% reduce 0%
+15/04/20 20:44:59 INFO mapreduce.Job:  map 29% reduce 0%
+15/04/20 20:45:04 INFO mapreduce.Job:  map 30% reduce 0%
+15/04/20 20:45:08 INFO mapreduce.Job:  map 31% reduce 0%
+15/04/20 20:45:13 INFO mapreduce.Job:  map 32% reduce 0%
+15/04/20 20:45:18 INFO mapreduce.Job:  map 33% reduce 0%
+15/04/20 20:45:23 INFO mapreduce.Job:  map 34% reduce 0%
+15/04/20 20:45:28 INFO mapreduce.Job:  map 35% reduce 0%
+15/04/20 20:45:33 INFO mapreduce.Job:  map 36% reduce 0%
+15/04/20 20:45:38 INFO mapreduce.Job:  map 37% reduce 0%
+15/04/20 20:45:43 INFO mapreduce.Job:  map 38% reduce 0%
+15/04/20 20:45:49 INFO mapreduce.Job:  map 39% reduce 0%
+15/04/20 20:45:55 INFO mapreduce.Job:  map 40% reduce 0%
+15/04/20 20:46:01 INFO mapreduce.Job:  map 41% reduce 0%
+15/04/20 20:46:08 INFO mapreduce.Job:  map 42% reduce 0%
+15/04/20 20:46:14 INFO mapreduce.Job:  map 43% reduce 0%
+15/04/20 20:46:22 INFO mapreduce.Job:  map 44% reduce 0%
+15/04/20 20:46:32 INFO mapreduce.Job:  map 45% reduce 0%
+15/04/20 20:46:47 INFO mapreduce.Job:  map 46% reduce 0%
+15/04/20 20:47:21 INFO mapreduce.Job:  map 47% reduce 0%
+15/04/20 20:47:34 INFO mapreduce.Job:  map 48% reduce 0%
+15/04/20 20:47:42 INFO mapreduce.Job:  map 49% reduce 0%
+15/04/20 20:47:47 INFO mapreduce.Job:  map 50% reduce 0%
+15/04/20 20:47:51 INFO mapreduce.Job:  map 51% reduce 0%
+15/04/20 20:47:57 INFO mapreduce.Job:  map 52% reduce 0%
+15/04/20 20:48:00 INFO mapreduce.Job:  map 52% reduce 1%
+15/04/20 20:48:01 INFO mapreduce.Job:  map 53% reduce 1%
+15/04/20 20:48:06 INFO mapreduce.Job:  map 54% reduce 2%
+15/04/20 20:48:10 INFO mapreduce.Job:  map 55% reduce 2%
+15/04/20 20:48:11 INFO mapreduce.Job:  map 55% reduce 3%
+15/04/20 20:48:14 INFO mapreduce.Job:  map 56% reduce 3%
+15/04/20 20:48:16 INFO mapreduce.Job:  map 56% reduce 4%
+15/04/20 20:48:19 INFO mapreduce.Job:  map 57% reduce 4%
+15/04/20 20:48:20 INFO mapreduce.Job:  map 57% reduce 5%
+15/04/20 20:48:22 INFO mapreduce.Job:  map 58% reduce 5%
+15/04/20 20:48:23 INFO mapreduce.Job:  map 58% reduce 6%
+15/04/20 20:48:25 INFO mapreduce.Job:  map 59% reduce 7%
+15/04/20 20:48:27 INFO mapreduce.Job:  map 60% reduce 8%
+15/04/20 20:48:29 INFO mapreduce.Job:  map 60% reduce 9%
+15/04/20 20:48:30 INFO mapreduce.Job:  map 61% reduce 9%
+15/04/20 20:48:31 INFO mapreduce.Job:  map 61% reduce 10%
+15/04/20 20:48:33 INFO mapreduce.Job:  map 62% reduce 12%
+15/04/20 20:48:35 INFO mapreduce.Job:  map 63% reduce 13%
+15/04/20 20:48:36 INFO mapreduce.Job:  map 63% reduce 14%
+15/04/20 20:48:38 INFO mapreduce.Job:  map 64% reduce 15%
+15/04/20 20:48:41 INFO mapreduce.Job:  map 65% reduce 16%
+15/04/20 20:48:44 INFO mapreduce.Job:  map 66% reduce 16%
+15/04/20 20:48:45 INFO mapreduce.Job:  map 66% reduce 17%
+15/04/20 20:48:47 INFO mapreduce.Job:  map 67% reduce 17%
+15/04/20 20:48:49 INFO mapreduce.Job:  map 67% reduce 18%
+15/04/20 20:48:50 INFO mapreduce.Job:  map 68% reduce 18%
+15/04/20 20:48:52 INFO mapreduce.Job:  map 69% reduce 19%
+15/04/20 20:48:54 INFO mapreduce.Job:  map 70% reduce 19%
+15/04/20 20:48:55 INFO mapreduce.Job:  map 70% reduce 20%
+15/04/20 20:48:57 INFO mapreduce.Job:  map 71% reduce 20%
+15/04/20 20:49:00 INFO mapreduce.Job:  map 71% reduce 21%
+15/04/20 20:49:01 INFO mapreduce.Job:  map 72% reduce 21%
+15/04/20 20:49:04 INFO mapreduce.Job:  map 73% reduce 21%
+15/04/20 20:49:06 INFO mapreduce.Job:  map 73% reduce 22%
+15/04/20 20:49:07 INFO mapreduce.Job:  map 74% reduce 22%
+15/04/20 20:49:12 INFO mapreduce.Job:  map 75% reduce 22%
+15/04/20 20:49:17 INFO mapreduce.Job:  map 75% reduce 23%
+15/04/20 20:49:18 INFO mapreduce.Job:  map 76% reduce 23%
+15/04/20 20:49:24 INFO mapreduce.Job:  map 77% reduce 23%
+15/04/20 20:49:32 INFO mapreduce.Job:  map 78% reduce 23%
+15/04/20 20:49:40 INFO mapreduce.Job:  map 79% reduce 23%
+15/04/20 20:49:47 INFO mapreduce.Job:  map 80% reduce 23%
+15/04/20 20:49:55 INFO mapreduce.Job:  map 81% reduce 23%
+15/04/20 20:50:03 INFO mapreduce.Job:  map 82% reduce 23%
+15/04/20 20:50:10 INFO mapreduce.Job:  map 83% reduce 23%
+15/04/20 20:50:19 INFO mapreduce.Job:  map 84% reduce 23%
+15/04/20 20:50:28 INFO mapreduce.Job:  map 85% reduce 23%
+15/04/20 20:50:38 INFO mapreduce.Job:  map 86% reduce 23%
+15/04/20 20:50:49 INFO mapreduce.Job:  map 87% reduce 23%
+15/04/20 20:51:00 INFO mapreduce.Job:  map 88% reduce 23%
+15/04/20 20:51:13 INFO mapreduce.Job:  map 89% reduce 23%
+15/04/20 20:51:31 INFO mapreduce.Job:  map 90% reduce 23%
+15/04/20 20:52:07 INFO mapreduce.Job:  map 90% reduce 24%
+15/04/20 20:52:12 INFO mapreduce.Job:  map 91% reduce 24%
+15/04/20 20:52:24 INFO mapreduce.Job:  map 91% reduce 25%
+15/04/20 20:52:27 INFO mapreduce.Job:  map 92% reduce 25%
+15/04/20 20:52:39 INFO mapreduce.Job:  map 92% reduce 26%
+15/04/20 20:52:45 INFO mapreduce.Job:  map 93% reduce 26%
+15/04/20 20:53:01 INFO mapreduce.Job:  map 94% reduce 27%
+15/04/20 20:53:11 INFO mapreduce.Job:  map 94% reduce 28%
+15/04/20 20:53:13 INFO mapreduce.Job:  map 95% reduce 28%
+15/04/20 20:53:19 INFO mapreduce.Job:  map 96% reduce 28%
+15/04/20 20:53:20 INFO mapreduce.Job:  map 96% reduce 29%
+15/04/20 20:53:26 INFO mapreduce.Job:  map 97% reduce 30%
+15/04/20 20:53:30 INFO mapreduce.Job:  map 98% reduce 30%
+15/04/20 20:53:31 INFO mapreduce.Job:  map 98% reduce 31%
+15/04/20 20:53:37 INFO mapreduce.Job:  map 98% reduce 32%
+15/04/20 20:53:38 INFO mapreduce.Job:  map 99% reduce 32%
+15/04/20 20:53:47 INFO mapreduce.Job:  map 99% reduce 33%
+15/04/20 20:53:49 INFO mapreduce.Job:  map 100% reduce 33%
+15/04/20 20:54:02 INFO mapreduce.Job:  map 100% reduce 37%
+15/04/20 20:54:03 INFO mapreduce.Job:  map 100% reduce 52%
+15/04/20 20:54:04 INFO mapreduce.Job:  map 100% reduce 71%
+15/04/20 20:54:05 INFO mapreduce.Job:  map 100% reduce 95%
+15/04/20 20:54:06 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 20:54:09 INFO mapreduce.Job: Job job_1422482982071_5903 completed successfully
+15/04/20 20:54:09 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=431532340
+		FILE: Number of bytes written=978128498
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=83410212407
+		HDFS: Number of bytes written=10674880
+		HDFS: Number of read operations=3471
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=324
+	Job Counters 
+		Killed map tasks=3
+		Launched map tasks=998
+		Launched reduce tasks=162
+		Data-local map tasks=757
+		Rack-local map tasks=241
+		Total time spent by all maps in occupied slots (ms)=646549122
+		Total time spent by all reduces in occupied slots (ms)=115158494
+		Total time spent by all map tasks (ms)=323274561
+		Total time spent by all reduce tasks (ms)=57579247
+		Total vcore-seconds taken by all map tasks=323274561
+		Total vcore-seconds taken by all reduce tasks=57579247
+		Total megabyte-seconds taken by all map tasks=2617230845856
+		Total megabyte-seconds taken by all reduce tasks=690950964000
+	Map-Reduce Framework
+		Map input records=1861420297
+		Map output records=9307101485
+		Map output bytes=102022623969
+		Map output materialized bytes=432498508
+		Input split bytes=157210
+		Combine input records=9307101485
+		Combine output records=25364839
+		Reduce input groups=658299
+		Reduce shuffle bytes=432498508
+		Reduce input records=25364839
+		Reduce output records=658299
+		Spilled Records=50729678
+		Shuffled Maps =161190
+		Failed Shuffles=0
+		Merged Map outputs=161190
+		GC time elapsed (ms)=797338
+		CPU time spent (ms)=312157340
+		Physical memory (bytes) snapshot=1968866807808
+		Virtual memory (bytes) snapshot=11299066753024
+		Total committed heap usage (bytes)=3096879771648
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=83410055197
+	File Output Format Counters 
+		Bytes Written=10674880
+15/04/20 20:54:09 INFO streaming.StreamJob: Output directory: ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-in
+
+real	11m50.726s
+user	0m15.740s
+sys	0m1.058s
+1335 217
+r googlebooks-eng-all-5gram-20120701-of mapper.R reducer.R
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=r-1335-217-googlebooks-eng-all-5gram-20120701-of -Dmapreduce.job.maps=1335 -Dmapreduce.job.reduces=217 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.R,./reducer.R -combiner ./reducer.R -mapper ./mapper.R -reducer ./reducer.R -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-of -output ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-of
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob7274140524107225478.jar tmpDir=null
+15/04/20 20:54:14 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:54:14 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 20:54:15 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 20:54:15 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 20:54:16 INFO mapreduce.JobSubmitter: number of splits:1335
+15/04/20 20:54:16 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5922
+15/04/20 20:54:16 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5922
+15/04/20 20:54:16 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5922/
+15/04/20 20:54:16 INFO mapreduce.Job: Running job: job_1422482982071_5922
+15/04/20 20:54:23 INFO mapreduce.Job: Job job_1422482982071_5922 running in uber mode : false
+15/04/20 20:54:23 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 20:54:39 INFO mapreduce.Job:  map 1% reduce 0%
+15/04/20 20:54:46 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 20:54:53 INFO mapreduce.Job:  map 3% reduce 0%
+15/04/20 20:55:00 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 20:55:06 INFO mapreduce.Job:  map 5% reduce 0%
+15/04/20 20:55:12 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 20:55:18 INFO mapreduce.Job:  map 7% reduce 0%
+15/04/20 20:55:24 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 20:55:31 INFO mapreduce.Job:  map 9% reduce 0%
+15/04/20 20:55:37 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 20:55:43 INFO mapreduce.Job:  map 11% reduce 0%
+15/04/20 20:55:49 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 20:55:55 INFO mapreduce.Job:  map 13% reduce 0%
+15/04/20 20:56:02 INFO mapreduce.Job:  map 14% reduce 0%
+15/04/20 20:56:08 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 20:56:14 INFO mapreduce.Job:  map 16% reduce 0%
+15/04/20 20:56:20 INFO mapreduce.Job:  map 17% reduce 0%
+15/04/20 20:56:26 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 20:56:33 INFO mapreduce.Job:  map 19% reduce 0%
+15/04/20 20:56:39 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 20:56:45 INFO mapreduce.Job:  map 21% reduce 0%
+15/04/20 20:56:52 INFO mapreduce.Job:  map 22% reduce 0%
+15/04/20 20:56:58 INFO mapreduce.Job:  map 23% reduce 0%
+15/04/20 20:57:06 INFO mapreduce.Job:  map 24% reduce 0%
+15/04/20 20:57:12 INFO mapreduce.Job:  map 25% reduce 0%
+15/04/20 20:57:19 INFO mapreduce.Job:  map 26% reduce 0%
+15/04/20 20:57:26 INFO mapreduce.Job:  map 27% reduce 0%
+15/04/20 20:57:33 INFO mapreduce.Job:  map 28% reduce 0%
+15/04/20 20:57:41 INFO mapreduce.Job:  map 29% reduce 0%
+15/04/20 20:57:48 INFO mapreduce.Job:  map 30% reduce 0%
+15/04/20 20:57:56 INFO mapreduce.Job:  map 31% reduce 0%
+15/04/20 20:58:06 INFO mapreduce.Job:  map 32% reduce 0%
+15/04/20 20:58:16 INFO mapreduce.Job:  map 33% reduce 0%
+15/04/20 20:58:29 INFO mapreduce.Job:  map 34% reduce 0%
+15/04/20 20:58:50 INFO mapreduce.Job:  map 35% reduce 0%
+15/04/20 20:59:14 INFO mapreduce.Job:  map 36% reduce 0%
+15/04/20 20:59:32 INFO mapreduce.Job:  map 37% reduce 0%
+15/04/20 20:59:42 INFO mapreduce.Job:  map 38% reduce 0%
+15/04/20 20:59:50 INFO mapreduce.Job:  map 39% reduce 0%
+15/04/20 20:59:59 INFO mapreduce.Job:  map 40% reduce 0%
+15/04/20 21:00:04 INFO mapreduce.Job:  map 41% reduce 1%
+15/04/20 21:00:10 INFO mapreduce.Job:  map 42% reduce 1%
+15/04/20 21:00:16 INFO mapreduce.Job:  map 43% reduce 1%
+15/04/20 21:00:17 INFO mapreduce.Job:  map 43% reduce 2%
+15/04/20 21:00:20 INFO mapreduce.Job:  map 44% reduce 2%
+15/04/20 21:00:24 INFO mapreduce.Job:  map 44% reduce 3%
+15/04/20 21:00:26 INFO mapreduce.Job:  map 45% reduce 3%
+15/04/20 21:00:28 INFO mapreduce.Job:  map 45% reduce 4%
+15/04/20 21:00:30 INFO mapreduce.Job:  map 46% reduce 4%
+15/04/20 21:00:35 INFO mapreduce.Job:  map 47% reduce 5%
+15/04/20 21:00:40 INFO mapreduce.Job:  map 47% reduce 6%
+15/04/20 21:00:41 INFO mapreduce.Job:  map 48% reduce 6%
+15/04/20 21:00:45 INFO mapreduce.Job:  map 48% reduce 7%
+15/04/20 21:00:46 INFO mapreduce.Job:  map 49% reduce 7%
+15/04/20 21:00:52 INFO mapreduce.Job:  map 50% reduce 8%
+15/04/20 21:00:56 INFO mapreduce.Job:  map 51% reduce 8%
+15/04/20 21:00:57 INFO mapreduce.Job:  map 51% reduce 9%
+15/04/20 21:01:00 INFO mapreduce.Job:  map 52% reduce 9%
+15/04/20 21:01:01 INFO mapreduce.Job:  map 52% reduce 10%
+15/04/20 21:01:05 INFO mapreduce.Job:  map 53% reduce 11%
+15/04/20 21:01:09 INFO mapreduce.Job:  map 53% reduce 12%
+15/04/20 21:01:10 INFO mapreduce.Job:  map 54% reduce 12%
+15/04/20 21:01:13 INFO mapreduce.Job:  map 54% reduce 13%
+15/04/20 21:01:15 INFO mapreduce.Job:  map 55% reduce 13%
+15/04/20 21:01:18 INFO mapreduce.Job:  map 55% reduce 14%
+15/04/20 21:01:20 INFO mapreduce.Job:  map 56% reduce 14%
+15/04/20 21:01:23 INFO mapreduce.Job:  map 56% reduce 15%
+15/04/20 21:01:26 INFO mapreduce.Job:  map 57% reduce 15%
+15/04/20 21:01:30 INFO mapreduce.Job:  map 57% reduce 16%
+15/04/20 21:01:32 INFO mapreduce.Job:  map 58% reduce 16%
+15/04/20 21:01:37 INFO mapreduce.Job:  map 59% reduce 17%
+15/04/20 21:01:44 INFO mapreduce.Job:  map 60% reduce 17%
+15/04/20 21:01:52 INFO mapreduce.Job:  map 61% reduce 17%
+15/04/20 21:02:01 INFO mapreduce.Job:  map 62% reduce 17%
+15/04/20 21:02:10 INFO mapreduce.Job:  map 63% reduce 17%
+15/04/20 21:02:20 INFO mapreduce.Job:  map 64% reduce 17%
+15/04/20 21:02:30 INFO mapreduce.Job:  map 65% reduce 17%
+15/04/20 21:02:41 INFO mapreduce.Job:  map 66% reduce 17%
+15/04/20 21:02:52 INFO mapreduce.Job:  map 67% reduce 17%
+15/04/20 21:03:05 INFO mapreduce.Job:  map 68% reduce 17%
+15/04/20 21:03:17 INFO mapreduce.Job:  map 68% reduce 18%
+15/04/20 21:03:18 INFO mapreduce.Job:  map 69% reduce 18%
+15/04/20 21:03:33 INFO mapreduce.Job:  map 70% reduce 18%
+15/04/20 21:03:46 INFO mapreduce.Job:  map 71% reduce 18%
+15/04/20 21:04:03 INFO mapreduce.Job:  map 72% reduce 18%
+15/04/20 21:04:21 INFO mapreduce.Job:  map 73% reduce 18%
+15/04/20 21:04:22 INFO mapreduce.Job:  map 73% reduce 19%
+15/04/20 21:04:40 INFO mapreduce.Job:  map 74% reduce 19%
+15/04/20 21:04:55 INFO mapreduce.Job:  map 74% reduce 20%
+15/04/20 21:04:58 INFO mapreduce.Job:  map 75% reduce 20%
+15/04/20 21:05:13 INFO mapreduce.Job:  map 76% reduce 20%
+15/04/20 21:05:16 INFO mapreduce.Job:  map 76% reduce 21%
+15/04/20 21:05:27 INFO mapreduce.Job:  map 77% reduce 21%
+15/04/20 21:05:31 INFO mapreduce.Job:  map 77% reduce 22%
+15/04/20 21:05:37 INFO mapreduce.Job:  map 78% reduce 22%
+15/04/20 21:05:47 INFO mapreduce.Job:  map 78% reduce 23%
+15/04/20 21:05:49 INFO mapreduce.Job:  map 79% reduce 23%
+15/04/20 21:06:01 INFO mapreduce.Job:  map 80% reduce 23%
+15/04/20 21:06:02 INFO mapreduce.Job:  map 80% reduce 24%
+15/04/20 21:06:13 INFO mapreduce.Job:  map 81% reduce 24%
+15/04/20 21:06:19 INFO mapreduce.Job:  map 81% reduce 25%
+15/04/20 21:06:22 INFO mapreduce.Job:  map 82% reduce 25%
+15/04/20 21:06:34 INFO mapreduce.Job:  map 83% reduce 25%
+15/04/20 21:06:41 INFO mapreduce.Job:  map 83% reduce 26%
+15/04/20 21:06:43 INFO mapreduce.Job:  map 84% reduce 26%
+15/04/20 21:06:54 INFO mapreduce.Job:  map 85% reduce 26%
+15/04/20 21:07:04 INFO mapreduce.Job:  map 86% reduce 26%
+15/04/20 21:07:10 INFO mapreduce.Job:  map 86% reduce 27%
+15/04/20 21:07:15 INFO mapreduce.Job:  map 87% reduce 27%
+15/04/20 21:07:27 INFO mapreduce.Job:  map 88% reduce 27%
+15/04/20 21:07:43 INFO mapreduce.Job:  map 89% reduce 27%
+15/04/20 21:07:58 INFO mapreduce.Job:  map 90% reduce 27%
+15/04/20 21:08:13 INFO mapreduce.Job:  map 91% reduce 27%
+15/04/20 21:08:28 INFO mapreduce.Job:  map 92% reduce 27%
+15/04/20 21:08:44 INFO mapreduce.Job:  map 92% reduce 28%
+15/04/20 21:08:46 INFO mapreduce.Job:  map 93% reduce 28%
+15/04/20 21:09:09 INFO mapreduce.Job:  map 94% reduce 28%
+15/04/20 21:09:46 INFO mapreduce.Job:  map 95% reduce 28%
+15/04/20 21:10:10 INFO mapreduce.Job:  map 95% reduce 29%
+15/04/20 21:10:18 INFO mapreduce.Job:  map 96% reduce 29%
+15/04/20 21:10:49 INFO mapreduce.Job:  map 96% reduce 30%
+15/04/20 21:10:54 INFO mapreduce.Job:  map 97% reduce 30%
+15/04/20 21:11:13 INFO mapreduce.Job:  map 97% reduce 31%
+15/04/20 21:11:17 INFO mapreduce.Job:  map 98% reduce 31%
+15/04/20 21:11:32 INFO mapreduce.Job:  map 98% reduce 32%
+15/04/20 21:11:39 INFO mapreduce.Job:  map 99% reduce 32%
+15/04/20 21:11:57 INFO mapreduce.Job:  map 99% reduce 33%
+15/04/20 21:12:13 INFO mapreduce.Job:  map 100% reduce 33%
+15/04/20 21:12:59 INFO mapreduce.Job:  map 100% reduce 36%
+15/04/20 21:13:00 INFO mapreduce.Job:  map 100% reduce 49%
+15/04/20 21:13:01 INFO mapreduce.Job:  map 100% reduce 78%
+15/04/20 21:13:02 INFO mapreduce.Job:  map 100% reduce 98%
+15/04/20 21:13:03 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 21:13:07 INFO mapreduce.Job: Job job_1422482982071_5922 completed successfully
+15/04/20 21:13:07 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=587895750
+		FILE: Number of bytes written=1332345892
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=111987284919
+		HDFS: Number of bytes written=13085320
+		HDFS: Number of read operations=4656
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=434
+	Job Counters 
+		Killed map tasks=2
+		Launched map tasks=1337
+		Launched reduce tasks=217
+		Data-local map tasks=1022
+		Rack-local map tasks=315
+		Total time spent by all maps in occupied slots (ms)=885382772
+		Total time spent by all reduces in occupied slots (ms)=326057144
+		Total time spent by all map tasks (ms)=442691386
+		Total time spent by all reduce tasks (ms)=163028572
+		Total vcore-seconds taken by all map tasks=442691386
+		Total vcore-seconds taken by all reduce tasks=163028572
+		Total megabyte-seconds taken by all map tasks=3584029461056
+		Total megabyte-seconds taken by all reduce tasks=1956342864000
+	Map-Reduce Framework
+		Map input records=2559610995
+		Map output records=12798054975
+		Map output bytes=137579927184
+		Map output materialized bytes=589632618
+		Input split bytes=210930
+		Combine input records=12798054975
+		Combine output records=34715854
+		Reduce input groups=812723
+		Reduce shuffle bytes=589632618
+		Reduce input records=34715854
+		Reduce output records=812723
+		Spilled Records=69431708
+		Shuffled Maps =289695
+		Failed Shuffles=0
+		Merged Map outputs=289695
+		GC time elapsed (ms)=1123919
+		CPU time spent (ms)=428746490
+		Physical memory (bytes) snapshot=2641952878592
+		Virtual memory (bytes) snapshot=15158676283392
+		Total committed heap usage (bytes)=4154359599104
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=111987073989
+	File Output Format Counters 
+		Bytes Written=13085320
+15/04/20 21:13:07 INFO streaming.StreamJob: Output directory: ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-of
+
+real	18m58.395s
+user	0m16.654s
+sys	0m1.276s
+3650 593
+r googlebooks-eng-all-5gram-20120701-th mapper.R reducer.R
+hadoop jar /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -Dmapreduce.job.name=r-3650-593-googlebooks-eng-all-5gram-20120701-th -Dmapreduce.job.maps=3650 -Dmapreduce.job.reduces=593 -Dmapreduce.map.java.opts=-Xmx12000M -Dmapreduce.reduce.java.opts=-Xmx12000M  -files ./mapper.R,./reducer.R -combiner ./reducer.R -mapper ./mapper.R -reducer ./reducer.R -input ./data/googletxt/googlebooks-eng-all-5gram-20120701-th -output ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-th
+packageJobJar: [] [/usr/lib/hadoop-mapreduce/hadoop-streaming-2.3.0-cdh5.1.0.jar] /tmp/streamjob5020173127729261453.jar tmpDir=null
+15/04/20 21:13:12 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 21:13:12 INFO client.RMProxy: Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
+15/04/20 21:13:13 INFO mapred.FileInputFormat: Total input paths to process : 1
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.143:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.184:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.163:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.171:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.195:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.141:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.162:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.169:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.140:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.147:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.160:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.189:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.181:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.196:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.165:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.191:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.190:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.175:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.197:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.144:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.200:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.177:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.186:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.176:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.173:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.183:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.192:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.194:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.164:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.178:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.180:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.193:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.198:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.179:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.182:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.188:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.199:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.202:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.149:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.174:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.168:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.172:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.187:50010
+15/04/20 21:13:14 INFO net.NetworkTopology: Adding a new node: /default-rack/129.114.57.203:50010
+15/04/20 21:13:14 INFO mapreduce.JobSubmitter: number of splits:3650
+15/04/20 21:13:15 INFO mapreduce.JobSubmitter: Submitting tokens for job: job_1422482982071_5938
+15/04/20 21:13:15 INFO impl.YarnClientImpl: Submitted application application_1422482982071_5938
+15/04/20 21:13:15 INFO mapreduce.Job: The url to track the job: http://name.rustler.tacc.utexas.edu:8088/proxy/application_1422482982071_5938/
+15/04/20 21:13:15 INFO mapreduce.Job: Running job: job_1422482982071_5938
+15/04/20 21:13:21 INFO mapreduce.Job: Job job_1422482982071_5938 running in uber mode : false
+15/04/20 21:13:21 INFO mapreduce.Job:  map 0% reduce 0%
+15/04/20 21:13:44 INFO mapreduce.Job:  map 1% reduce 0%
+15/04/20 21:14:04 INFO mapreduce.Job:  map 2% reduce 0%
+15/04/20 21:14:22 INFO mapreduce.Job:  map 3% reduce 0%
+15/04/20 21:14:40 INFO mapreduce.Job:  map 4% reduce 0%
+15/04/20 21:14:59 INFO mapreduce.Job:  map 5% reduce 0%
+15/04/20 21:15:18 INFO mapreduce.Job:  map 6% reduce 0%
+15/04/20 21:15:36 INFO mapreduce.Job:  map 7% reduce 0%
+15/04/20 21:15:55 INFO mapreduce.Job:  map 8% reduce 0%
+15/04/20 21:16:15 INFO mapreduce.Job:  map 9% reduce 0%
+15/04/20 21:16:40 INFO mapreduce.Job:  map 10% reduce 0%
+15/04/20 21:17:55 INFO mapreduce.Job:  map 11% reduce 0%
+15/04/20 21:19:01 INFO mapreduce.Job:  map 12% reduce 0%
+15/04/20 21:19:22 INFO mapreduce.Job:  map 13% reduce 0%
+15/04/20 21:19:41 INFO mapreduce.Job:  map 14% reduce 0%
+15/04/20 21:19:53 INFO mapreduce.Job:  map 15% reduce 0%
+15/04/20 21:20:08 INFO mapreduce.Job:  map 16% reduce 0%
+15/04/20 21:20:21 INFO mapreduce.Job:  map 17% reduce 0%
+15/04/20 21:20:36 INFO mapreduce.Job:  map 18% reduce 0%
+15/04/20 21:20:50 INFO mapreduce.Job:  map 19% reduce 0%
+15/04/20 21:21:05 INFO mapreduce.Job:  map 20% reduce 0%
+15/04/20 21:21:24 INFO mapreduce.Job:  map 21% reduce 0%
+15/04/20 21:21:25 INFO mapreduce.Job:  map 21% reduce 1%
+15/04/20 21:21:44 INFO mapreduce.Job:  map 22% reduce 1%
+15/04/20 21:22:06 INFO mapreduce.Job:  map 23% reduce 1%
+15/04/20 21:22:36 INFO mapreduce.Job:  map 24% reduce 1%
+15/04/20 21:23:22 INFO mapreduce.Job:  map 25% reduce 1%
+15/04/20 21:24:25 INFO mapreduce.Job:  map 26% reduce 1%
+15/04/20 21:25:01 INFO mapreduce.Job:  map 27% reduce 1%
+15/04/20 21:25:24 INFO mapreduce.Job:  map 28% reduce 1%
+15/04/20 21:25:45 INFO mapreduce.Job:  map 29% reduce 1%
+15/04/20 21:26:04 INFO mapreduce.Job:  map 30% reduce 1%
+15/04/20 21:26:22 INFO mapreduce.Job:  map 31% reduce 1%
+15/04/20 21:26:28 INFO mapreduce.Job:  map 31% reduce 2%
+15/04/20 21:26:40 INFO mapreduce.Job:  map 32% reduce 2%
+15/04/20 21:26:59 INFO mapreduce.Job:  map 33% reduce 2%
+15/04/20 21:27:21 INFO mapreduce.Job:  map 34% reduce 2%
+15/04/20 21:27:46 INFO mapreduce.Job:  map 35% reduce 2%
+15/04/20 21:28:17 INFO mapreduce.Job:  map 36% reduce 2%
+15/04/20 21:29:00 INFO mapreduce.Job:  map 37% reduce 2%
+15/04/20 21:29:54 INFO mapreduce.Job:  map 38% reduce 2%
+15/04/20 21:30:37 INFO mapreduce.Job:  map 39% reduce 2%
+15/04/20 21:31:02 INFO mapreduce.Job:  map 39% reduce 3%
+15/04/20 21:31:06 INFO mapreduce.Job:  map 40% reduce 3%
+15/04/20 21:31:30 INFO mapreduce.Job:  map 41% reduce 3%
+15/04/20 21:31:54 INFO mapreduce.Job:  map 42% reduce 3%
+15/04/20 21:32:15 INFO mapreduce.Job:  map 43% reduce 3%
+15/04/20 21:32:22 INFO mapreduce.Job:  map 43% reduce 4%
+15/04/20 21:32:37 INFO mapreduce.Job:  map 44% reduce 4%
+15/04/20 21:32:58 INFO mapreduce.Job:  map 45% reduce 4%
+15/04/20 21:33:22 INFO mapreduce.Job:  map 46% reduce 4%
+15/04/20 21:33:49 INFO mapreduce.Job:  map 47% reduce 4%
+15/04/20 21:34:24 INFO mapreduce.Job:  map 48% reduce 4%
+15/04/20 21:34:53 INFO mapreduce.Job:  map 48% reduce 5%
+15/04/20 21:35:07 INFO mapreduce.Job:  map 49% reduce 5%
+15/04/20 21:35:54 INFO mapreduce.Job:  map 50% reduce 5%
+15/04/20 21:36:27 INFO mapreduce.Job:  map 51% reduce 5%
+15/04/20 21:37:02 INFO mapreduce.Job:  map 52% reduce 5%
+15/04/20 21:37:24 INFO mapreduce.Job:  map 52% reduce 6%
+15/04/20 21:37:37 INFO mapreduce.Job:  map 53% reduce 6%
+15/04/20 21:38:21 INFO mapreduce.Job:  map 54% reduce 6%
+15/04/20 21:40:04 INFO mapreduce.Job:  map 55% reduce 6%
+15/04/20 21:41:15 INFO mapreduce.Job:  map 56% reduce 6%
+15/04/20 21:41:20 INFO mapreduce.Job:  map 56% reduce 7%
+15/04/20 21:41:39 INFO mapreduce.Job:  map 57% reduce 7%
+15/04/20 21:42:02 INFO mapreduce.Job:  map 58% reduce 7%
+15/04/20 21:42:25 INFO mapreduce.Job:  map 59% reduce 7%
+15/04/20 21:42:50 INFO mapreduce.Job:  map 60% reduce 7%
+15/04/20 21:43:18 INFO mapreduce.Job:  map 61% reduce 7%
+15/04/20 21:44:08 INFO mapreduce.Job:  map 62% reduce 7%
+15/04/20 21:45:47 INFO mapreduce.Job:  map 62% reduce 8%
+15/04/20 21:45:52 INFO mapreduce.Job:  map 63% reduce 8%
+15/04/20 21:46:23 INFO mapreduce.Job:  map 64% reduce 8%
+15/04/20 21:46:44 INFO mapreduce.Job:  map 65% reduce 8%
+15/04/20 21:47:05 INFO mapreduce.Job:  map 66% reduce 8%
+15/04/20 21:47:27 INFO mapreduce.Job:  map 67% reduce 8%
+15/04/20 21:47:46 INFO mapreduce.Job:  map 67% reduce 9%
+15/04/20 21:47:47 INFO mapreduce.Job:  map 68% reduce 9%
+15/04/20 21:48:12 INFO mapreduce.Job:  map 69% reduce 9%
+15/04/20 21:48:41 INFO mapreduce.Job:  map 70% reduce 9%
+15/04/20 21:49:22 INFO mapreduce.Job:  map 71% reduce 9%
+15/04/20 21:50:38 INFO mapreduce.Job:  map 72% reduce 9%
+15/04/20 21:51:32 INFO mapreduce.Job:  map 73% reduce 9%
+15/04/20 21:52:10 INFO mapreduce.Job:  map 74% reduce 9%
+15/04/20 21:52:42 INFO mapreduce.Job:  map 75% reduce 9%
+15/04/20 21:52:48 INFO mapreduce.Job:  map 75% reduce 10%
+15/04/20 21:53:16 INFO mapreduce.Job:  map 76% reduce 10%
+15/04/20 21:53:55 INFO mapreduce.Job:  map 77% reduce 10%
+15/04/20 21:54:45 INFO mapreduce.Job:  map 78% reduce 10%
+15/04/20 21:55:39 INFO mapreduce.Job:  map 79% reduce 10%
+15/04/20 21:56:54 INFO mapreduce.Job:  map 80% reduce 10%
+15/04/20 21:57:57 INFO mapreduce.Job:  map 81% reduce 10%
+15/04/20 21:58:40 INFO mapreduce.Job:  map 82% reduce 10%
+15/04/20 21:59:05 INFO mapreduce.Job:  map 82% reduce 11%
+15/04/20 21:59:19 INFO mapreduce.Job:  map 83% reduce 11%
+15/04/20 22:00:03 INFO mapreduce.Job:  map 84% reduce 11%
+15/04/20 22:00:55 INFO mapreduce.Job:  map 85% reduce 11%
+15/04/20 22:01:56 INFO mapreduce.Job:  map 86% reduce 11%
+15/04/20 22:03:03 INFO mapreduce.Job:  map 87% reduce 11%
+15/04/20 22:03:54 INFO mapreduce.Job:  map 88% reduce 11%
+15/04/20 22:04:38 INFO mapreduce.Job:  map 89% reduce 11%
+15/04/20 22:05:21 INFO mapreduce.Job:  map 90% reduce 11%
+15/04/20 22:05:48 INFO mapreduce.Job:  map 90% reduce 12%
+15/04/20 22:06:07 INFO mapreduce.Job:  map 91% reduce 12%
+15/04/20 22:07:00 INFO mapreduce.Job:  map 92% reduce 12%
+15/04/20 22:08:05 INFO mapreduce.Job:  map 93% reduce 12%
+15/04/20 22:09:00 INFO mapreduce.Job:  map 94% reduce 12%
+15/04/20 22:09:49 INFO mapreduce.Job:  map 95% reduce 12%
+15/04/20 22:10:36 INFO mapreduce.Job:  map 96% reduce 12%
+15/04/20 22:11:20 INFO mapreduce.Job:  map 97% reduce 12%
+15/04/20 22:11:42 INFO mapreduce.Job:  map 97% reduce 13%
+15/04/20 22:12:17 INFO mapreduce.Job:  map 98% reduce 13%
+15/04/20 22:12:54 INFO mapreduce.Job:  map 98% reduce 14%
+15/04/20 22:13:25 INFO mapreduce.Job:  map 98% reduce 15%
+15/04/20 22:13:36 INFO mapreduce.Job:  map 99% reduce 15%
+15/04/20 22:14:09 INFO mapreduce.Job:  map 99% reduce 16%
+15/04/20 22:14:40 INFO mapreduce.Job:  map 99% reduce 17%
+15/04/20 22:15:10 INFO mapreduce.Job:  map 99% reduce 18%
+15/04/20 22:15:45 INFO mapreduce.Job:  map 99% reduce 19%
+15/04/20 22:15:55 INFO mapreduce.Job:  map 100% reduce 19%
+15/04/20 22:16:15 INFO mapreduce.Job:  map 100% reduce 20%
+15/04/20 22:16:46 INFO mapreduce.Job:  map 100% reduce 21%
+15/04/20 22:17:12 INFO mapreduce.Job:  map 100% reduce 22%
+15/04/20 22:17:28 INFO mapreduce.Job:  map 100% reduce 23%
+15/04/20 22:17:42 INFO mapreduce.Job:  map 100% reduce 24%
+15/04/20 22:17:54 INFO mapreduce.Job:  map 100% reduce 25%
+15/04/20 22:18:03 INFO mapreduce.Job:  map 100% reduce 26%
+15/04/20 22:18:21 INFO mapreduce.Job:  map 100% reduce 27%
+15/04/20 22:18:36 INFO mapreduce.Job:  map 100% reduce 28%
+15/04/20 22:18:52 INFO mapreduce.Job:  map 100% reduce 34%
+15/04/20 22:18:53 INFO mapreduce.Job:  map 100% reduce 46%
+15/04/20 22:18:54 INFO mapreduce.Job:  map 100% reduce 66%
+15/04/20 22:18:55 INFO mapreduce.Job:  map 100% reduce 77%
+15/04/20 22:18:56 INFO mapreduce.Job:  map 100% reduce 83%
+15/04/20 22:18:57 INFO mapreduce.Job:  map 100% reduce 84%
+15/04/20 22:18:59 INFO mapreduce.Job:  map 100% reduce 85%
+15/04/20 22:19:00 INFO mapreduce.Job:  map 100% reduce 89%
+15/04/20 22:19:01 INFO mapreduce.Job:  map 100% reduce 95%
+15/04/20 22:19:02 INFO mapreduce.Job:  map 100% reduce 99%
+15/04/20 22:19:03 INFO mapreduce.Job:  map 100% reduce 100%
+15/04/20 22:19:09 INFO mapreduce.Job: Job job_1422482982071_5938 completed successfully
+15/04/20 22:19:09 INFO mapreduce.Job: Counters: 51
+	File System Counters
+		FILE: Number of bytes read=1361748826
+		FILE: Number of bytes written=3192676195
+		FILE: Number of read operations=0
+		FILE: Number of large read operations=0
+		FILE: Number of write operations=0
+		HDFS: Number of bytes read=306151972264
+		HDFS: Number of bytes written=15968668
+		HDFS: Number of read operations=12729
+		HDFS: Number of large read operations=0
+		HDFS: Number of write operations=1186
+	Job Counters 
+		Killed reduce tasks=1
+		Launched map tasks=3650
+		Launched reduce tasks=594
+		Data-local map tasks=2894
+		Rack-local map tasks=756
+		Total time spent by all maps in occupied slots (ms)=2499202656
+		Total time spent by all reduces in occupied slots (ms)=1506232072
+		Total time spent by all map tasks (ms)=1249601328
+		Total time spent by all reduce tasks (ms)=753116036
+		Total vcore-seconds taken by all map tasks=1249601328
+		Total vcore-seconds taken by all reduce tasks=753116036
+		Total megabyte-seconds taken by all map tasks=10116772351488
+		Total megabyte-seconds taken by all reduce tasks=9037392432000
+	Map-Reduce Framework
+		Map input records=6699266723
+		Map output records=33496333615
+		Map output bytes=373135281876
+		Map output materialized bytes=1374731968
+		Input split bytes=576700
+		Combine input records=33496333615
+		Combine output records=78939122
+		Reduce input groups=963424
+		Reduce shuffle bytes=1374731968
+		Reduce input records=78939122
+		Reduce output records=963424
+		Spilled Records=157878244
+		Shuffled Maps =2164450
+		Failed Shuffles=0
+		Merged Map outputs=2164450
+		GC time elapsed (ms)=3887207
+		CPU time spent (ms)=1044831410
+		Physical memory (bytes) snapshot=7228874530816
+		Virtual memory (bytes) snapshot=41437399547904
+		Total committed heap usage (bytes)=11357739921408
+	Shuffle Errors
+		BAD_ID=0
+		CONNECTION=0
+		IO_ERROR=0
+		WRONG_LENGTH=0
+		WRONG_MAP=0
+		WRONG_REDUCE=0
+	File Input Format Counters 
+		Bytes Read=306151395564
+	File Output Format Counters 
+		Bytes Written=15968668
+15/04/20 22:19:09 INFO streaming.StreamJob: Output directory: ./out/stream-r-0-googlebooks-eng-all-5gram-20120701-th
+
+real	66m1.519s
+user	0m28.384s
+sys	0m3.144s
