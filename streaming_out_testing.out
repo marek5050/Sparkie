@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "./runner_streaming3.py", line 25, in <module>
+    ["100","30"] 
+TypeError: list indices must be integers, not tuple

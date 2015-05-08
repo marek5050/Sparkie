@@ -1,0 +1,2 @@
+2015-04-30 14:29:22,896 WARN  [main][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2015-04-30 14:29:23,611 INFO  [main][org.apache.hadoop.yarn.client.RMProxy] Connecting to ResourceManager at name.rustler.tacc.utexas.edu/129.114.57.132:8032
