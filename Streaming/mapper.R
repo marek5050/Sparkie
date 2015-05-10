@@ -1,16 +1,17 @@
-#! /usr/bin/Rscript
-# mapper.R - Wordcount program in R
-# script for Mapper (R-Hadoop integration)
-trimWhiteSpace <- function(line) gsub("(^ +)|( +$)", "", line)
-splitIntoWords <- function(line) unlist(strsplit(line, "[[:space:]]+"))
-## **** could wo with a single readLines or in blocks
-con <- file("stdin", open = "r")
-while (length(line <- readLines(con, n = 1, warn = FALSE)) > 0) {
-	line <- trimWhiteSpace(line)
-	words <- splitIntoWords(line)
-## **** can be done as cat(paste(words, "\t1\n", sep=""), sep="")
-for (w in words)
-	cat(w, "\t1\n", sep="")
+#!/usr/bin/env Rscript
+#https://github.com/glennklockwood/paraR/blob/master/streaming/wordcount-streaming-mapper.R
+options(warn=-1)
+
+outputCount= function(key, value) {
+    cat(key,'\t',value,'\n',sep='')
 }
 
-close(con)
+stdin <- file('stdin', open='r')
+
+while ( length(line <- readLines(stdin, n=1, warn=FALSE)) > 0 ) {
+    #line <- gsub('(^\\s+|\\s+$)', '', line)
+    keys <- unlist(strsplit(line, split=' ',fixed=TRUE))
+    value <- 1
+    lapply(keys, FUN=outputCount, value=value)
+}
+close(stdin)

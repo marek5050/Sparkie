@@ -1,31 +1,37 @@
-#! /usr/bin/Rscript
-# reducer.R - Wordcount program in R
-# script for Reducer (R-Hadoop integration)
+#!/usr/bin/env Rscript
+#https://github.com/glennklockwood/paraR/blob/master/streaming/wordcount-streaming-reducer.R#
+options(warn=-1)
 
-trimWhiteSpace <- function(line) gsub("(^ +)|( +$)", "", line)
-splitLine <- function(line) {
-	val <- unlist(strsplit(line, "\t", fixed=TRUE))
-	list(word = val[1], count = as.integer(val[2]))
+last_key <- ""
+running_total <- 0
+stdin <- file('stdin','r')
+#stdout<- file("stdout",open='rw')
+#stdout2 <- pipe(" awk -v var='$mycol_new' -F $'\t' 'BEGIN {OFS = FS} {print}'", open='r')
+
+outputCount <- function(word,count){
+            cat(last_key,'\t',running_total,'\n',sep='')
 }
 
-env <- new.env(hash = TRUE)
-con <- file("stdin", open = "r")
 
-count <-0
-cur_word<-""
+while ( length(line <- readLines(stdin, n=1 , warn=FALSE)) > 0 ) {
+   # line <- gsub('(^\\s+)|(\\s+$)', '', line)
+    keyvalue <- unlist(strsplit(line, split='\t', fixed=TRUE))
+    this_key <- keyvalue[[1]]
+    value <- as.numeric(keyvalue[[2]])
 
-while (length(line <- readLines(con, n = 1, warn = FALSE)) > 0){
-	line <- trimWhiteSpace(line)
-	split <- splitLine(line)
-	word <- split$word
-	if(cur_word!=word){
-	  cat(cur_word,"\t",count,"\n",sep="") 
-	  cur_word=word
-          count=split$count
-	}else{
-	  count=count+split$count
+    if ( identical(last_key,this_key) ) {
+        running_total <- running_total + value
+    }
+    else {
+        if ( !identical(last_key,"") ) {
+	  outputCount(last_key,value)
 	}
+        running_total <- value
+        last_key <- this_key
+    }
 }
-cat(cur_word,"\t",count,"\n",sep="")
-close(con)
 
+if ( last_key == this_key ) {
+            outputCount(last_key,running_total)
+}
+close(stdin)
