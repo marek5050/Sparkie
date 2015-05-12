@@ -31,7 +31,5 @@ while ( length(line <- readLines(stdin, n=1 , warn=FALSE)) > 0 ) {
     }
 }
 
-if ( last_key == this_key ) {
-            outputCount(last_key,running_total)
-}
+outputCount(last_key,running_total)
 close(stdin)
