@@ -13,7 +13,7 @@ DIR=/user/$(whoami)
 
 if [ "$1"  == "" ]
 then 
-   TEST=r
+   TEST=py
 fi
 
 if [ "$2" == "" ]
@@ -36,8 +36,7 @@ then
    REDUCER_COUNT=10
 fi
  
-
-OUTPUT=out/streaming-$TEST-$ATTEMPT-$INPUT
+OUTPUT=out/stream-$TEST-$ATTEMPT-$INPUT
 
 #hadoop jar ${HADOOP_STREAMING_JAR} -files ./mapper.R,./reducer.R -mapper ./mapper.R  -reducer ./reducer.R -input ${FILES[0]} -output ./output-${FILES[0]}
 #hadoop jar ${HADOOP_STREAMING_JAR} -files ./mapper.R,./reducer.R -mapper ./mapper.R  -reducer ./reducer.R -input book.txt -output ./output-bookies
@@ -60,19 +59,36 @@ MAPPER=mapper.py
 REDUCER=reducer.py
 fi
 
+if [ "$6" == "true" ]
+then
+   COMBINER="-combiner ./$REDUCER"
+fi
+
+
 
 hdfs dfs -rm -r -f $OUTPUT
+
 
 echo $MAPPER_COUNT $REDUCER_COUNT
 echo $TEST $INPUT $MAPPER $REDUCER
 
-hadoop jar ${HADOOP_STREAMING_JAR} \
+echo "hadoop jar ${HADOOP_STREAMING_JAR} \
 -Dmapreduce.job.name="$TEST-$MAPPER_COUNT-$REDUCER_COUNT-$INPUT" \
 -Dmapreduce.job.maps=$MAPPER_COUNT \
 -Dmapreduce.job.reduces=$REDUCER_COUNT \
 -Dmapreduce.map.java.opts=-Xmx12000M \
 -Dmapreduce.reduce.java.opts=-Xmx12000M \
- -files ./$MAPPER,./$REDUCER -mapper ./$MAPPER  -reducer ./$REDUCER -input ./data/$INPUT -output ./$OUTPUT
+ -files ./$MAPPER,./$REDUCER $COMBINER -mapper ./$MAPPER -reducer ./$REDUCER -input ./data/googletxt/$INPUT -output ./$OUTPUT"
+hadoop jar ${HADOOP_STREAMING_JAR} \
+-Dmapreduce.job.name="$TEST-$MAPPER_COUNT-$REDUCER_COUNT-C-$6-$INPUT" \
+-Dmapreduce.job.maps=$MAPPER_COUNT \
+-Dmapreduce.job.reduces=$REDUCER_COUNT \
+ -files ./$MAPPER,./$REDUCER $COMBINER -mapper ./$MAPPER -reducer ./$REDUCER -input ./data/googletxt/$INPUT -output ./$OUTPUT -inputformat org.apache.hadoop.mapred.TextInputFormat
+
+
+
+#-Dmapreduce.map.java.opts=-Xmx12000M \
+#-Dmapreduce.reduce.java.opts=-Xmx12000M \
 
 #-Dmapreduce.task.profile=true \
 #-Dmapreduce.task.profile.maps=0-2 \
